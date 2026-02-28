@@ -16,6 +16,32 @@ function isLongText(value: string) {
   return value.length > 90 || value.includes('\n');
 }
 
+function toJsModule(content: Record<string, JsonValue>) {
+  const orderedKeys = [
+    'expeditions',
+    'galleryItems',
+    'headerContent',
+    'footerContent',
+    'homePageContent',
+    'aboutPageContent',
+    'contactPageContent',
+    'expeditionsPageContent',
+    'expeditionDetailPageContent',
+    'galleryPageContent',
+  ];
+
+  const exportsText = orderedKeys
+    .filter((key) => key in content)
+    .map((key) => `export const ${key} = ${JSON.stringify(content[key], null, 2)};\n`)
+    .join('\n');
+
+  return `${exportsText}
+export function getExpeditionById(id) {
+  return expeditions.find((item) => item._id === id) || null;
+}
+`;
+}
+
 export default function AdminCmsPage() {
   const [content, setContent] = useState<Record<string, JsonValue>>(
     () => loadSiteContent() as unknown as Record<string, JsonValue>,
@@ -58,6 +84,23 @@ export default function AdminCmsPage() {
   const resetDefaults = () => {
     setContent(defaultSiteContent as unknown as Record<string, JsonValue>);
     setStatus('Reset to current project defaults.');
+  };
+
+  const copySiteContent = async () => {
+    await navigator.clipboard.writeText(toJsModule(content));
+    setStatus('Copied siteContent.js content to clipboard.');
+  };
+
+  const downloadSiteContent = () => {
+    const fileText = toJsModule(content);
+    const blob = new Blob([fileText], { type: 'text/javascript;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = 'siteContent.js';
+    anchor.click();
+    URL.revokeObjectURL(url);
+    setStatus('Downloaded siteContent.js. Replace src/data/siteContent.js and redeploy.');
   };
 
   const renderEditor = (value: JsonValue, path: string[] = []): JSX.Element => {
@@ -154,12 +197,14 @@ export default function AdminCmsPage() {
         <div className="mb-8">
           <h1 className="font-heading text-4xl md:text-5xl text-foreground mb-4">Content Manager</h1>
           <p className="font-paragraph text-base text-secondary max-w-4xl">
-            Edit all site content here, then click Save. No file editing is required.
+            Edit content, then download `siteContent.js`. Replace `src/data/siteContent.js` in your project and redeploy.
           </p>
         </div>
 
         <div className="flex flex-wrap gap-3 mb-8">
-          <button onClick={saveBrowser} className="bg-primary text-primary-foreground px-5 py-2.5 font-paragraph text-sm">Save In Browser</button>
+          <button onClick={downloadSiteContent} className="bg-primary text-primary-foreground px-5 py-2.5 font-paragraph text-sm">Download siteContent.js</button>
+          <button onClick={copySiteContent} className="border border-foreground/20 px-5 py-2.5 font-paragraph text-sm text-foreground">Copy File Content</button>
+          <button onClick={saveBrowser} className="border border-foreground/20 px-5 py-2.5 font-paragraph text-sm text-foreground">Save In Browser</button>
           <button onClick={loadBrowser} className="border border-foreground/20 px-5 py-2.5 font-paragraph text-sm text-foreground">Load Saved</button>
           <button onClick={resetDefaults} className="border border-foreground/20 px-5 py-2.5 font-paragraph text-sm text-foreground">Reset Defaults</button>
         </div>
