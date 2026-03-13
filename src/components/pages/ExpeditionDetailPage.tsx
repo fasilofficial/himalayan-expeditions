@@ -1,13 +1,20 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
-import { Image } from '@/components/ui/image';
-import { LoadingSpinner } from '@/components/ui/loading-spinner';
-import { useSiteContent } from '@/data/contentStore';
-import { Expeditions } from '@/entities';
-import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, CheckCircle2, MapPin, TrendingUp, XCircle } from 'lucide-react';
-import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import { Image } from "@/components/ui/image";
+import { LoadingSpinner } from "@/components/ui/loading-spinner";
+import { useSiteContent } from "@/data/contentStore";
+import { Expeditions } from "@/entities";
+import { motion } from "framer-motion";
+import {
+  ArrowLeft,
+  Calendar,
+  CheckCircle2,
+  MapPin,
+  TrendingUp,
+  XCircle,
+} from "lucide-react";
+import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 
 export default function ExpeditionDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -25,7 +32,7 @@ export default function ExpeditionDetailPage() {
 
   const parseListItems = (text?: string): string[] => {
     if (!text) return [];
-    return text.split('\n').filter((item) => item.trim());
+    return text.split("\n").filter((item) => item.trim());
   };
 
   return (
@@ -39,8 +46,12 @@ export default function ExpeditionDetailPage() {
           </div>
         ) : !expedition ? (
           <div className="max-w-[100rem] mx-auto px-8 py-32 text-center">
-            <h2 className="font-heading text-3xl text-foreground mb-6">{expeditionDetailPageContent.notFoundTitle}</h2>
-            <p className="font-paragraph text-base text-secondary mb-8">{expeditionDetailPageContent.notFoundDescription}</p>
+            <h2 className="font-heading text-3xl text-foreground mb-6">
+              {expeditionDetailPageContent.notFoundTitle}
+            </h2>
+            <p className="font-paragraph text-base text-secondary mb-8">
+              {expeditionDetailPageContent.notFoundDescription}
+            </p>
             <Link to="/expeditions">
               <button className="bg-primary text-primary-foreground px-8 py-4 font-paragraph font-medium text-base hover:bg-primary/90 transition-colors">
                 {expeditionDetailPageContent.notFoundCtaLabel}
@@ -50,24 +61,59 @@ export default function ExpeditionDetailPage() {
         ) : (
           <>
             <section className="relative w-full h-[70vh] min-h-[500px]">
-              <Image src={expedition.mainImage || expeditionDetailPageContent.heroFallbackImage} alt={expedition.name || 'Expedition'} className="w-full h-full object-cover" />
+              <Image
+                src={
+                  expedition.mainImage ||
+                  expeditionDetailPageContent.heroFallbackImage
+                }
+                alt={expedition.name || "Expedition"}
+                className="w-full h-full object-cover"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
 
               <div className="absolute bottom-0 left-0 right-0">
                 <div className="max-w-[100rem] mx-auto px-8 pb-16">
-                  <Link to="/expeditions" className="inline-flex items-center gap-2 font-paragraph text-base text-primary-foreground/80 hover:text-primary-foreground mb-8 transition-colors">
+                  <Link
+                    to="/expeditions"
+                    className="inline-flex items-center gap-2 font-paragraph text-base text-primary-foreground/80 hover:text-primary-foreground mb-8 transition-colors"
+                  >
                     <ArrowLeft className="w-5 h-5" strokeWidth={1.5} />
                     {expeditionDetailPageContent.backToExpeditionsLabel}
                   </Link>
 
-                  <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="font-heading text-5xl md:text-6xl text-primary-foreground mb-6">
+                  <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    className="font-heading text-5xl md:text-6xl text-primary-foreground mb-6"
+                  >
                     {expedition.name}
                   </motion.h1>
 
-                  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="flex flex-wrap items-center gap-8 font-paragraph text-base text-primary-foreground/90">
-                    {expedition.destination && <div className="flex items-center gap-2"><MapPin className="w-5 h-5" strokeWidth={1.5} /><span>{expedition.destination}</span></div>}
-                    {expedition.durationInDays && <div className="flex items-center gap-2"><Calendar className="w-5 h-5" strokeWidth={1.5} /><span>{expedition.durationInDays} Days</span></div>}
-                    {expedition.difficulty && <div className="flex items-center gap-2"><TrendingUp className="w-5 h-5" strokeWidth={1.5} /><span>{expedition.difficulty}</span></div>}
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, delay: 0.1 }}
+                    className="flex flex-wrap items-center gap-8 font-paragraph text-base text-primary-foreground/90"
+                  >
+                    {expedition.destination && (
+                      <div className="flex items-center gap-2">
+                        <MapPin className="w-5 h-5" strokeWidth={1.5} />
+                        <span>{expedition.destination}</span>
+                      </div>
+                    )}
+                    {expedition.durationInDays && (
+                      <div className="flex items-center gap-2">
+                        <Calendar className="w-5 h-5" strokeWidth={1.5} />
+                        <span>{expedition.durationInDays} Days</span>
+                      </div>
+                    )}
+                    {expedition.difficulty && (
+                      <div className="flex items-center gap-2">
+                        <TrendingUp className="w-5 h-5" strokeWidth={1.5} />
+                        <span>{expedition.difficulty}</span>
+                      </div>
+                    )}
                   </motion.div>
                 </div>
               </div>
@@ -78,63 +124,113 @@ export default function ExpeditionDetailPage() {
                 <div className="lg:col-span-8 space-y-16">
                   {expedition.shortDescription && (
                     <div>
-                      <h2 className="font-heading text-3xl text-foreground mb-6">{expeditionDetailPageContent.overviewTitle}</h2>
-                      <p className="font-paragraph text-lg text-secondary leading-relaxed">{expedition.shortDescription}</p>
+                      <h2 className="font-heading text-3xl text-foreground mb-6">
+                        {expeditionDetailPageContent.overviewTitle}
+                      </h2>
+                      {expedition.shortDescription
+                        .split("\n")
+                        .map((line, i) => (
+                          <p
+                            key={i}
+                            className="mt-4 font-paragraph text-lg text-secondary leading-relaxed"
+                          >
+                            {line}
+                          </p>
+                        ))}
                     </div>
                   )}
 
                   {expedition.highlights && (
                     <div>
-                      <h2 className="font-heading text-3xl text-foreground mb-6">{expeditionDetailPageContent.highlightsTitle}</h2>
+                      <h2 className="font-heading text-3xl text-foreground mb-6">
+                        {expeditionDetailPageContent.highlightsTitle}
+                      </h2>
                       <div className="space-y-4">
-                        {parseListItems(expedition.highlights).map((highlight, index) => (
-                          <div key={index} className="flex items-start gap-4">
-                            <CheckCircle2 className="w-6 h-6 text-accent-blue flex-shrink-0 mt-1" strokeWidth={1.5} />
-                            <p className="font-paragraph text-base text-secondary leading-relaxed">{highlight}</p>
-                          </div>
-                        ))}
+                        {parseListItems(expedition.highlights).map(
+                          (highlight, index) => (
+                            <div key={index} className="flex items-start gap-4">
+                              <CheckCircle2
+                                className="w-6 h-6 text-accent-blue flex-shrink-0 mt-1"
+                                strokeWidth={1.5}
+                              />
+                              <p className="font-paragraph text-base text-secondary leading-relaxed">
+                                {highlight}
+                              </p>
+                            </div>
+                          ),
+                        )}
                       </div>
                     </div>
                   )}
 
                   {expedition.itinerary && (
                     <div>
-                      <h2 className="font-heading text-3xl text-foreground mb-6">{expeditionDetailPageContent.itineraryTitle}</h2>
+                      <h2 className="font-heading text-3xl text-foreground mb-6">
+                        {expeditionDetailPageContent.itineraryTitle}
+                      </h2>
                       <div className="space-y-6">
-                        {parseListItems(expedition.itinerary).map((day, index) => (
-                          <div key={index} className="border-l-2 border-accent-blue pl-8 py-2">
-                            <h3 className="font-heading text-xl text-foreground mb-2">{expeditionDetailPageContent.dayLabelPrefix} {index + 1}</h3>
-                            <p className="font-paragraph text-base text-secondary leading-relaxed">{day}</p>
-                          </div>
-                        ))}
+                        {parseListItems(expedition.itinerary).map(
+                          (day, index) => (
+                            <div
+                              key={index}
+                              className="border-l-2 border-accent-blue pl-8 py-2"
+                            >
+                              <h3 className="font-heading text-xl text-foreground mb-2">
+                                {expeditionDetailPageContent.dayLabelPrefix}{" "}
+                                {index + 1}
+                              </h3>
+                              <p className="font-paragraph text-base text-secondary leading-relaxed">
+                                {day}
+                              </p>
+                            </div>
+                          ),
+                        )}
                       </div>
                     </div>
                   )}
 
                   {expedition.whatsIncluded && (
                     <div>
-                      <h2 className="font-heading text-3xl text-foreground mb-6">{expeditionDetailPageContent.whatsIncludedTitle}</h2>
+                      <h2 className="font-heading text-3xl text-foreground mb-6">
+                        {expeditionDetailPageContent.whatsIncludedTitle}
+                      </h2>
                       <div className="space-y-4">
-                        {parseListItems(expedition.whatsIncluded).map((item, index) => (
-                          <div key={index} className="flex items-start gap-4">
-                            <CheckCircle2 className="w-6 h-6 text-accent-blue flex-shrink-0 mt-1" strokeWidth={1.5} />
-                            <p className="font-paragraph text-base text-secondary leading-relaxed">{item}</p>
-                          </div>
-                        ))}
+                        {parseListItems(expedition.whatsIncluded).map(
+                          (item, index) => (
+                            <div key={index} className="flex items-start gap-4">
+                              <CheckCircle2
+                                className="w-6 h-6 text-accent-blue flex-shrink-0 mt-1"
+                                strokeWidth={1.5}
+                              />
+                              <p className="font-paragraph text-base text-secondary leading-relaxed">
+                                {item}
+                              </p>
+                            </div>
+                          ),
+                        )}
                       </div>
                     </div>
                   )}
 
                   {expedition.whatsNotIncluded && (
                     <div>
-                      <h2 className="font-heading text-3xl text-foreground mb-6">{expeditionDetailPageContent.whatsNotIncludedTitle}</h2>
+                      <h2 className="font-heading text-3xl text-foreground mb-6">
+                        {expeditionDetailPageContent.whatsNotIncludedTitle}
+                      </h2>
                       <div className="space-y-4">
-                        {parseListItems(expedition.whatsNotIncluded).map((item, index) => (
-                          <div key={index} className="flex items-start gap-4">
-                            <XCircle className="w-6 h-6 text-secondary flex-shrink-0 mt-1" strokeWidth={1.5} />
-                            <p className="font-paragraph text-base text-secondary leading-relaxed">{item}</p>
-                          </div>
-                        ))}
+                        {parseListItems(expedition.whatsNotIncluded).map(
+                          (item, index) => (
+                            <div key={index} className="flex items-start gap-4">
+                              <XCircle
+                                className="w-6 h-6 text-secondary flex-shrink-0 mt-1"
+                                strokeWidth={1.5}
+                              />
+                              <p className="font-paragraph text-base text-secondary leading-relaxed">
+                                {item}
+                              </p>
+                            </div>
+                          ),
+                        )}
                       </div>
                     </div>
                   )}
@@ -144,9 +240,15 @@ export default function ExpeditionDetailPage() {
                   <div className="sticky top-32 space-y-8">
                     <div className="border border-foreground/20 p-8">
                       <div className="mb-8">
-                        <p className="font-paragraph text-sm text-secondary mb-2">{expeditionDetailPageContent.priceLabel}</p>
-                        <p className="font-heading text-4xl text-foreground">₹{expedition.price}</p>
-                        <p className="font-paragraph text-sm text-secondary mt-2">{expeditionDetailPageContent.perPersonLabel}</p>
+                        <p className="font-paragraph text-sm text-secondary mb-2">
+                          {expeditionDetailPageContent.priceLabel}
+                        </p>
+                        <p className="font-heading text-4xl text-foreground">
+                          ${expedition.price}
+                        </p>
+                        <p className="font-paragraph text-sm text-secondary mt-2">
+                          {expeditionDetailPageContent.perPersonLabel}
+                        </p>
                       </div>
 
                       <Link to="/contact" className="block">
@@ -155,7 +257,12 @@ export default function ExpeditionDetailPage() {
                         </button>
                       </Link>
 
-                      <a href={expeditionDetailPageContent.whatsappUrl} target="_blank" rel="noopener noreferrer" className="block">
+                      <a
+                        href={expeditionDetailPageContent.whatsappUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block"
+                      >
                         <button className="w-full bg-transparent text-accent-blue border border-accent-blue px-8 py-4 font-paragraph font-medium text-base hover:bg-accent-blue hover:text-primary-foreground transition-colors">
                           {expeditionDetailPageContent.whatsappLabel}
                         </button>
@@ -163,26 +270,40 @@ export default function ExpeditionDetailPage() {
                     </div>
 
                     <div className="border border-foreground/20 p-8 space-y-6">
-                      <h3 className="font-heading text-xl text-foreground mb-6">{expeditionDetailPageContent.quickInfoTitle}</h3>
+                      <h3 className="font-heading text-xl text-foreground mb-6">
+                        {expeditionDetailPageContent.quickInfoTitle}
+                      </h3>
 
                       {expedition.durationInDays && (
                         <div>
-                          <p className="font-paragraph text-sm text-secondary mb-2">{expeditionDetailPageContent.durationLabel}</p>
-                          <p className="font-paragraph text-base text-foreground">{expedition.durationInDays} Days</p>
+                          <p className="font-paragraph text-sm text-secondary mb-2">
+                            {expeditionDetailPageContent.durationLabel}
+                          </p>
+                          <p className="font-paragraph text-base text-foreground">
+                            {expedition.durationInDays} Days
+                          </p>
                         </div>
                       )}
 
                       {expedition.difficulty && (
                         <div>
-                          <p className="font-paragraph text-sm text-secondary mb-2">{expeditionDetailPageContent.difficultyLabel}</p>
-                          <p className="font-paragraph text-base text-foreground">{expedition.difficulty}</p>
+                          <p className="font-paragraph text-sm text-secondary mb-2">
+                            {expeditionDetailPageContent.difficultyLabel}
+                          </p>
+                          <p className="font-paragraph text-base text-foreground">
+                            {expedition.difficulty}
+                          </p>
                         </div>
                       )}
 
                       {expedition.destination && (
                         <div>
-                          <p className="font-paragraph text-sm text-secondary mb-2">{expeditionDetailPageContent.destinationLabel}</p>
-                          <p className="font-paragraph text-base text-foreground">{expedition.destination}</p>
+                          <p className="font-paragraph text-sm text-secondary mb-2">
+                            {expeditionDetailPageContent.destinationLabel}
+                          </p>
+                          <p className="font-paragraph text-base text-foreground">
+                            {expedition.destination}
+                          </p>
                         </div>
                       )}
                     </div>

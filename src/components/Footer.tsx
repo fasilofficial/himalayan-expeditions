@@ -15,8 +15,8 @@ export default function Footer() {
               <Image
                 src={headerContent.logo.src}
                 alt={headerContent.logo.alt}
-                width={36}
-                height={36}
+                width={64}
+                height={64}
                 className="object-contain"
               />
               <span className="font-heading text-xl">{footerContent.brandName}</span>
