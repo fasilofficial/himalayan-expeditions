@@ -4,8 +4,12 @@ export const expeditions = [
     name: "Everest Base Camp 15 Days",
     shortDescription: `This trek is 15 days plus 2 days of travel on the front and back end. Unlike the trek through the Annapurnas, there is very little time spent in Kathmandu on the Everest Base Camp itinerary with more time spent in the Everest Region. As a matter of fact, the trek to Everest Base Camp (EBC) gives adventurers a once-in-a-lifetime opportunity to visit some of the high-altitude destinations that only a small percentage of the world’s population ever gets to visit. Following the trail blazed by Edmund Hillary and Tenzing Norgay, groups will trek along the foothills of the Himalayan mountains including the world’s highest, Mount Everest (8848m). Stand beneath their blanketing shadows and feel the energy that these giants give off. Likewise, en route experience tea houses, Sherpa hospitality, Buddhist culture, spiritualism, and the amazing mountain scenery.\nIn general, the trek begins in Lukla, also known as the “Gateway to Everest” and groups will follow their experienced guide through different villages culminating at Everest Base Camp. Challenging hikes will test participants endurance level but will reward trekkers with up-close views of Mt. Everest (29,029 ft), Mt Pumori (23,500 ft), Thanserku (21,730 ft), Ama Dablam (22,350 ft), Nuptse (25,800 ft), Cho Oyu (26,860 ft), Lhotse (27,940 ft), Imja Tse/Island Peak (20,200 ftm) and several other peaks. Surrounded by tumbling glaciers and giant walls of snow and ice, EBC is the first campsite for climbers trying to scale Mount Everest.`,
     price: 1100,
-    mainImage:
+    mainImage: "/photos/image-00123.jpg",
+    images: [
       "https://static.wixstatic.com/media/51cacb_c3f7efc8bc834f76b45edba6231b16ec~mv2.png?originWidth=1280&originHeight=704",
+      "image-00123.jpg",
+      "https://static.wixstatic.com/media/51cacb_241081de656a4cacb0e81042bdf9063a~mv2.png?originWidth=1280&originHeight=704",
+    ],
     destination: "Kathmandu, Nepal",
     durationInDays: 15,
     difficulty: "Extreme",
@@ -21,30 +25,29 @@ export const expeditions = [
   },
   {
     _id: "2",
-    name: " Everest Base Camp Island Peak Climbing",
-    shortDescription:
-      "Island Peak climbing in Nepal offers the opportunity to conquer the renowned Imja Tse, a soaring peak that stands at 6,187 meters amidst the bustling Khumbu Himalayan range of Nepal. This mountain is a favored destination, attracting both novice adventurers and dedicated climbers alike, promising them the ultimate sense of achievement and fulfillment.\n\nIf you are seeking the thrill of adventure and wish to widen your experience towards peak climbing expedition beyond simply trekking in Nepal, this is the mountain for you. Our professionally designed itinerary offers you a couple of days extra at the same town to get acclimatized.\n\nThe adventure of island peak climbing from Chhukhung begins with a trek to the picturesque village, and from there, the path leads to the base camp of Island Peak, offering a two-fold exploration of both nature and challenge.\n\nReaching the summit of Island Peak will grant you a historical achievement, and in return, you’ll be greeted with arguably some of the most stunning panoramic vistas on the planet.\n\nAs you stand atop the Island Peak summit, you’ll experience a sensation as if Lhotse, Nuptse, Baruntse, Ama Dablam, and Makalu are almost within arm’s reach, creating an awe-inspiring spectacle before you.",
-    price: 1900,
+    name: "Island Peak Climbing with Everest Base Camp Trek",
+    shortDescription: `Island Peak Climbing with Everest Base Camp Trek is an awesome involvement with the Himalayas of Nepal. It is intended for fiery and truly fit trekkers with practically zero involvement with mountain endeavor. Island Peak (6,189m/20,305ft) is one of the primary climbing tops in the Everest Region of Nepal with an amazing and exceptionally glaciated West Face that ascents from the Lhotse Glacier. Being one of the ‘trekking tops’ with next to no specialized perspectives, Island Peak Climbing is certifiably not a troublesome endeavor for an amateur climber wishing to enter the mind boggling universe of hiking. Many climbers run to Nepal consistently to get a grant for Island Peak climbing.\nOur experience likewise brings us into the heartland of the Khumbu Valley and Sherpa culture. Prior to scaling the pinnacle, we likewise visit, potentially the most well known trekking goal on the planet – Everest Base Camp (5,357m/17,575ft) and Kala Patthar – for the very close perspectives on Mt. Everest and other high mountains.\nToward the East lies brilliant Red rock mass of Mt Makalu 8475m and Cho Polu 6734m. Mt Baruntse 7720m and the lofty Ama Dablam 6856m gatekeepers the passageway at the South over a frigid cove where Island Peak stands. Island Peak Mountaineering with EBC Trek in Nepal is the most ideal approach to investigate the emotional scenes, peaceful snow capped woods, and rich Buddhist religion and culture neighborly good country Sherpa people group amidst the world’s most noteworthy mountains.`,
+    price: 2650,
     mainImage:
       "https://static.wixstatic.com/media/51cacb_241081de656a4cacb0e81042bdf9063a~mv2.png?originWidth=1280&originHeight=704",
     destination: "Nepal",
-    durationInDays: 15,
+    durationInDays: 18,
     difficulty: "Extreme",
     highlights:
-      "Scenic flight to and from Lukla\nStep inside and experience life as the “mountain people” live, in the heart of the Himalayas\nVisiting Tengboche Monastery\nRemarkable views of Khumbu Ice fall and Makalu Himalayan Range\nSummit to Island peak at an elevation of 6,187 m/20,299 ft",
+      "Island Peak (6,189m) climbing combined with Everest Base Camp and Kala Patthar for close-up Everest views\nPerfect for beginners with little to no mountaineering experience, offering a great introduction to Himalayan climbing\nExperience Sherpa culture and explore the Khumbu Valley with stays in traditional mountain villages\nStunning views of major Himalayan peaks including Everest, Lhotse, Makalu, Ama Dablam, and Baruntse",
     itinerary:
-      "Arrival in Kathmandu airport (1,400 m/4,593 ft). Overnight at Hotel.\nFly to Lukla (2,840 m) from Kathmandu – 35 minutes or drive to Manthali/Ramechhap (474 m) by shared tourist vehicle – 5 to 6 hours and a 20 minutes flight to Lukla, and then trek to Phakding (2,610 m) – 3 to 4 hours. Overnight at a Guesthouse.\nTrek to Namche Bazaar (3,440 m/11,287 ft) – 5 to 6 hours. Overnight at Guesthouse.\nAcclimatization at Namche (3,440 m/11,287 ft). Overnight at Guesthouse.\nTrek to Tengboche Monastery (3,860 m/12,664 ft) – 5 to 6 hours. Overnight at Guesthouse.\nTrek to Dingboche (4,410 m/14,470 ft) – 5 to 6 hours. Overnight at Guesthouse.\nTrek to Chhukhung (4,730 m/15,518 ft) – 4 to 5 hours. Overnight at Guesthouse.\nTrek to Island peak base camp (5,240 m/17,191 ft) – 4 to 5 hours. Overnight at Tented Camp.\nRest and Acclimatization day. Overnight at Tented Camp.\nSummit to Island peak (6,187 m/20,299 ft) and return to Chhukung (4,730 m/15,518 ft)- 9 to 10 hrs. Overnight at Guesthouse.\nTrek to Tengboche (3,860 m/12,664 ft) – 6 to 7 hours. Overnight at Guesthouse.\nTrek to Namche Bazaar (3,440 m/11,287 ft) via Khumjung (3,780 m/12,401 ft) – 5 to 6 hours. Overnight at Guesthouse.\nTrek to Lukla (2,840 m/9,317 ft) – 6 to 7 hours. Overnight at Guesthouse.\nFly back to Kathmandu – 35 minutes or Manthali/Ramechhap – 20 minutes from Lukla and same day drive to Kathmandu by shared tourist vehicle – 5 to 6 hours. Overnight at a Hotel.\nTransfer to international airport for your final departure.",
+      "Arrival In Kathmandu (1400 M)\nCombined sightseeing of Kathmandu and Bhaktapur\nFly to Lukla and trek to Phakding (2652m, 3 hours)\nTrek to Namche Bazaar (3440m)\nNamche Bazar And Everest View Hotel\nTrek To Tengboche (3860m)\nTrek To Dingboche (4410m)\nDingboche to Nagerjun and back (5100m)\nTrek to Lobuche (4910m)\nTrek to Everest Base Camp and Gorakshep (5181m)\nHiking to Kalapatthar (5545m) – Gorekshep – Dingboche (4410m)\nDingboche to Island Peak Base Camp (5240m)\nIsland Peak Base Camp to Summit Peak (6189m) and back to Chhukung\nReserve day for Contingency\nChhukung to Namche (3440m)\nNamche to Lukla (2800m)\nFly to Kathmandu and Farewell Dinner\nDeparture from Kathmandu",
     whatsIncluded:
-      "Accommodation\nTwin-sharing/double accommodation in a 3-star hotel for 2 nights in Kathmandu including breakfast (Private room accommodation can be organized at an extra cost)\nTwin-sharing guesthouse accommodation during the trek for 10 days in Everest region with attached toilet in Lukla, Phakding & Namche\nTented camp accommodation and all meals during the 1/2-nights stay at the Island Peak Base Camp (We will provide fully water/wind-proof twin-share tents, dining tents, kitchen gear, dining table, chairs, toilet tents, etc.)\nMeals & Drinking Water\nAll your standard meals during the trek (Breakfast, Lunch, and Dinner) including one hot drink and seasonal fruits\nA farewell dinner on the last night in Nepal\nPurified drinking water during the trek using water filter or water purification tablets.\nTransportation\nAll (international and domestic) airport transfers on a tourist vehicle\nRound-trip airfare between Kathmandu/Manthali and Lukla\nKathmandu – Manthali – Kathmandu transportation by shared tourist vehicle\nGuide and Staff\nExperienced, first-aid trained, government licensed, English speaking, and locally recruited Ace the Himalaya’s trekking guide (2 guides for group size more than 7 people)\nPorters during the trek for carrying luggage (1 porter for every 2 clients)\nClimbing sherpa from Island peak base camp for the summit and back to base camp.\nWages, accommodation, meals, gear, insurance, and medications for all staff\nPermits\nSagarmatha/Everest National Park Permit\nTIMS (Trekkers’ Information Management System) card\nIsland Peak Climbing Permit\nBenefits and Takeaways\n1 Ace the Himalaya’s duffel/kit bag, trekking map, sun hat, Buff (Neck Gaiter)\nA comprehensive first aid kit, including an Oximeter to check pulse and oxygen levels daily in the mountains\nTrip completion certificate\nEquipment\nGroup climbing equipment (Climbing rope, ice screw, snow bar and ice hammer)\nAdministrative & Taxes\nAll administrative expenses and government taxes",
+      "All airport transfers from arrival to departure\n18 day adventure, 14 of which include 3 meals a day\nRound-trip airfare between Kathmandu/Ramecchap and Lukla\nAll Climbing Gear (Including boots, harness and helmet)\n20kg baggage allowance in flight and during trekking\nPorter service\nAirport transfers\nEnglish-speaking, government-licensed Trekking Guide\nAll applicable trekking and climbing permits\n3 nights accommodation in Kathmandu on B&B plan\nGovernment taxes, entrance fee, equipment fee, and other applicable fees\nFirst aid kit\nTrip certificate\nFarewell dinner",
     whatsNotIncluded:
-      "Lunch and dinner in Kathmandu\nInternational flight fare and airport departure tax\nNepal Entry Visa (Visa can be acquired easily after your arrival at Tribhuvan International Airport in Kathmandu with a fee of USD 30 for 15 days visa, USD 50 for 30 days visa and USD 125 for 90 days visa)\nTravel insurance along with high-altitude emergency evacuation coverage\nAny beverages including bottled and boiled water\nTips to trekking staff, climbing Sherpa and driver\nPersonal trekking gear and equipment\nAny expenses other than the Price Include section",
-    isFeatured: false,
+      "Lunch and dinner in Kathmandu\nTravel insurance which covers emergency rescue and evacuation\nInternational airfare and airport departure tax\nNepal entry visa - You can obtain the visa easily upon your arrival at Tribhuvan International Airport in Kathmandu (Tourist Visa with Multiple Entries for 15 days can be obtained by paying $25 or equivalent foreign currency. Similarly, Tourist Visa with Multiple Entries for 30 days and 90 days can be obtained by paying $40 and $100 respectively. Please bring 2 copies of passport size photos)\nAlcoholic, hot and cold drinks\nPersonal trekking equipment\nTips for trekking staff and driver (you will absolutely want to show your gratitude to your sherpas and porters)\nAny other expenses that are not mentioned in the ‘Price Includes’ section",
+    isFeatured: true,
   },
   {
     _id: "3",
     name: "Mera Peak Climbing",
     shortDescription: `Mera Peak, one of the most climbable peaks in the world, continues to fascinate the climbers with its easy peak climbing route that you can ever imagine in a mountain. Also, Mera Peak has varied alluring features that will meet the expectations of a climber as well as capture the attention of your mind. It has the reputation of an easy peak, less fatal, and this is what matters to the world. Mera Peak is also a warm-up peak for those who are climbing Mt. Everest.\nIt seems Mera Peak is for everybody because it is not a technical peak. Its height ascends to 6000 m plus, a height that has to be respected, the required height, as well as the standard elevation that you want to ascend in your life. It is good to have a lifetime experience on this peak, where climbing to the top is always successful. This climbing demands physical fitness from you, after all, you are climbing such an altitude.\nThe top of Mera Peak is a vantage point, for it shows the view of 8000 m mountains, soaring around us, such as Everest, Makalu, Lhotse, Cho Oyu, and Kanchenjunga, as well as to enjoy the panoramic view of snow-clad mountains that has the best of the best view in the world.\nWith the world-class climbing guide of Sherpa Summit Treks and Expedition, you are going to have this, as well as stand on the top of Mera Peak. This is also the guide, who will teach you from scratch, such as how to fix ropes, how to climb up the rocky area, how to walk on a steep edge, must-have climbing equipment, and so on. After all, Mera Peak is a mixed climbing of ice climbing, snow climbing, and rock climbing.`,
-    price: 1900,
+    price: 2500,
     mainImage:
       "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
     destination: "Kathmandu, Nepal",
@@ -140,7 +143,7 @@ export const expeditions = [
       "Airport pick up and drop off\nAccommodation (You will have your own hotel room, but you need to share a room with other members during the trek; however, Mountain Ascend Treks will arrange private rooms on the trek upon request)\nBreakfast\nSherpa Summit Treks and Expedition Duffel Bag and T – Shirt\nBreakfast, lunch, and dinner throughout the trek\nAll ground transportation within Kathmandu and from Kathmandu and other places\nLicensed city guide\nLicensed trekking guide\nPorter\nAll the entrance fee to historical monuments\nFirst-aid box\nFarewell Dinner\nTrip Completion Certificate\nAll local taxes",
     whatsNotIncluded:
       "International air-ticket, visa and travel insurance\nBreakfast and lunch\nExtra night accommodation\nPersonal expenses\nTips for guides and porters\nMountain Ascend Trek does not include drinking water in the trek. You can buy at USD 1, but the drinking water price can go higher up to USD 3 as you trek from one elevation to another, from low to high\nThe other things excluded in the trek are Wifi, charging of mobile and hot showers. Wifi is available at USD 3 to USD 5 an hour. Charging cost is USD 2 an hour. Hot showers are USD 4\nUnforeseen cost\nEvacuation fee in a helicopter\nRental Price of Down-Jacket and Sleeping Bag is USD 15 each",
-    isFeatured: false,
+    isFeatured: true,
   },
   {
     _id: "8",
@@ -168,7 +171,7 @@ export const expeditions = [
     name: "Ama Dablam Expedition",
     shortDescription:
       "Ama Dablam (6,812m) is one of the world’s most attractive mountains. The awe-inspiring ice-coated granite pyramid-like mountain soars above the Dudh Kosi River valley south of Everest and Lhotse in the Khumbu region. Mount Ama Dablam is acknowledged as a jewel of the Himalayas in Nepal. Ama Dablam climbing is relatively safe and anyone can summit it. This unforgettable climb in the Khumbu region of Nepal involves a cultural trek up to Everest base camp along with technical aspect of rock, snow and ice climbing experience. We must allow more time on the mountain to acclimatize properly. The route provides varied and sustained climb with reasonable level of difficulty. From the summit top you, can enjoy stunning panoramic views of Mt. Everest, Cho Oyu, Lhotse and Makalu. We fix two to three camps on the route along the beautiful south-west ridge beneath the right side of the hanging glacier. Expedition to Mt. Ama Dablam begins with a 35 minutes mountain flight to Lukla and then trek to Namche Bazaar, Khumjung and Pangboche before setting up base camp. It is just 20 mile walk from Lukla to Ama Dablam base camp. The normal route for Mt. Ama Dablam climbing is via South-West Ridge. The ascent from Ama Dablam Camp I to camp III is considered the most difficult part of the climb.",
-    price: 5000,
+    price: 10500,
     mainImage:
       "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
     destination: "Kathmandu, Nepal",
@@ -1466,15 +1469,15 @@ export const contactPageContent = {
     },
     expeditionPlaceholder: "Select an expedition",
     expeditionOptions: [
-      "Everest Base Camp",
-      "Three Pass Everest Base Camp",
-      "Annapurna Circuit",
-      "Annapurna Base Camp",
-      "Ama Dablam Climbing",
-      "Everest Base Camp + Island Peak",
+      "Everest Base Camp 15 Days",
+      "Island Peak Climbing with Everest Base Camp Trek",
       "Mera Peak Climbing",
-      "Gokyo Valley",
-      "Manaslu Circuit",
+      "Everest Three High Passes Trek",
+      "Gokyo Valley Trek",
+      "Annapurna Circuit Trek",
+      "Manaslu Circuit Trek",
+      "Annapurna Base Camp Trek",
+      "Ama Dablam Expedition",
       "Other",
     ],
     submitLabel: "Send Enquiry",
