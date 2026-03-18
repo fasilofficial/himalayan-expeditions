@@ -13,7 +13,7 @@ import {
   TrendingUp,
   XCircle,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 export default function ExpeditionDetailPage() {
@@ -21,6 +21,7 @@ export default function ExpeditionDetailPage() {
   const { expeditions, expeditionDetailPageContent } = useSiteContent();
   const [expedition, setExpedition] = useState<Expeditions | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   useEffect(() => {
     if (!id) return;
@@ -34,6 +35,55 @@ export default function ExpeditionDetailPage() {
     if (!text) return [];
     return text.split("\n").filter((item) => item.trim());
   };
+
+  const normalizeImageUrl = (image?: string): string | null => {
+    if (!image?.trim()) return null;
+
+    if (
+      image.startsWith("/") ||
+      image.startsWith("http://") ||
+      image.startsWith("https://") ||
+      image.startsWith("data:")
+    ) {
+      return image;
+    }
+
+    return `/${image.replace(/^\/+/, "")}`;
+  };
+
+  const heroImages = useMemo(() => {
+    if (!expedition) return [];
+
+    const mainImage =
+      normalizeImageUrl(expedition.mainImage) ||
+      normalizeImageUrl(expeditionDetailPageContent.heroFallbackImage);
+
+    const additionalImages =
+      expedition.images
+        ?.map((image) => normalizeImageUrl(image))
+        .filter((image): image is string => Boolean(image)) || [];
+
+    return [mainImage, ...additionalImages].filter(
+      (image, index, images): image is string =>
+        Boolean(image) && images.indexOf(image) === index,
+    );
+  }, [expedition, expeditionDetailPageContent.heroFallbackImage]);
+
+  useEffect(() => {
+    setActiveImageIndex(0);
+  }, [heroImages]);
+
+  useEffect(() => {
+    if (heroImages.length <= 1) return;
+
+    const interval = window.setInterval(() => {
+      setActiveImageIndex((current) => (current + 1) % heroImages.length);
+    }, 4000);
+
+    return () => {
+      window.clearInterval(interval);
+    };
+  }, [heroImages]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -61,14 +111,16 @@ export default function ExpeditionDetailPage() {
         ) : (
           <>
             <section className="relative w-full h-[70vh] min-h-[500px]">
-              <Image
-                src={
-                  expedition.mainImage ||
-                  expeditionDetailPageContent.heroFallbackImage
-                }
-                alt={expedition.name || "Expedition"}
-                className="w-full h-full object-cover"
-              />
+              {heroImages.map((image, index) => (
+                <Image
+                  key={`${image}-${index}`}
+                  src={image}
+                  alt={expedition.name || "Expedition"}
+                  className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
+                    index === activeImageIndex ? "opacity-100" : "opacity-0"
+                  }`}
+                />
+              ))}
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
 
               <div className="absolute bottom-0 left-0 right-0">

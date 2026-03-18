@@ -19,6 +19,8 @@ export interface Expeditions {
   price?: number;
   /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
   mainImage?: string;
+  /** @wixFieldType image */
+  images?: string[];
   /** @wixFieldType text */
   destination?: string;
   /** @wixFieldType number */
@@ -31,6 +33,8 @@ export interface Expeditions {
   itinerary?: string;
   /** @wixFieldType text */
   whatsIncluded?: string;
+  /** @wixFieldType text */
+  whatsNotIncluded?: string;
   /** @wixFieldType boolean */
   isFeatured?: boolean;
 }
