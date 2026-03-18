@@ -112,14 +112,20 @@ export default function ExpeditionDetailPage() {
           <>
             <section className="relative w-full h-[70vh] min-h-[500px]">
               {heroImages.map((image, index) => (
-                <Image
+                <div
                   key={`${image}-${index}`}
-                  src={image}
-                  alt={expedition.name || "Expedition"}
-                  className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${
+                  className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
                     index === activeImageIndex ? "opacity-100" : "opacity-0"
                   }`}
-                />
+                  style={{ willChange: "opacity" }}
+                >
+                  <Image
+                    src={image}
+                    alt={expedition.name || "Expedition"}
+                    decoding="async"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               ))}
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
 

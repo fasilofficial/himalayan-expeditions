@@ -34,6 +34,54 @@ const ParallaxImage = ({
   );
 };
 
+const ExpeditionCardImageCarousel = ({
+  images,
+  alt,
+}: {
+  images: string[];
+  alt: string;
+}) => {
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+
+  useEffect(() => {
+    setActiveImageIndex(0);
+  }, [images]);
+
+  useEffect(() => {
+    if (images.length <= 1) return;
+
+    const interval = window.setInterval(() => {
+      setActiveImageIndex((current) => (current + 1) % images.length);
+    }, 4000);
+
+    return () => {
+      window.clearInterval(interval);
+    };
+  }, [images]);
+
+  return (
+    <div className="mb-6 overflow-hidden relative h-80">
+      {images.map((image, imageIndex) => (
+        <div
+          key={`${image}-${imageIndex}`}
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            imageIndex === activeImageIndex ? "opacity-100 z-10" : "opacity-0 z-0"
+          }`}
+          style={{ willChange: "opacity" }}
+        >
+          <Image
+            src={image}
+            alt={alt}
+            decoding="async"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            style={{ willChange: "transform" }}
+          />
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export default function ExpeditionsPage() {
   const { expeditions: expeditionsContent, expeditionsPageContent } =
     useSiteContent();
@@ -60,6 +108,37 @@ export default function ExpeditionsPage() {
     selectedDestination,
     priceRange,
   ]);
+
+  const normalizeImageUrl = (image?: string): string | null => {
+    if (!image?.trim()) return null;
+
+    if (
+      image.startsWith("/") ||
+      image.startsWith("http://") ||
+      image.startsWith("https://") ||
+      image.startsWith("data:")
+    ) {
+      return image;
+    }
+
+    return `/${image.replace(/^\/+/, "")}`;
+  };
+
+  const getCardImages = (expedition: Expeditions): string[] => {
+    const mainImage =
+      normalizeImageUrl(expedition.mainImage) ||
+      normalizeImageUrl(expeditionsPageContent.cardFallbackImage);
+
+    const additionalImages =
+      expedition.images
+        ?.map((image) => normalizeImageUrl(image))
+        .filter((image): image is string => Boolean(image)) || [];
+
+    return [mainImage, ...additionalImages].filter(
+      (image, index, images): image is string =>
+        Boolean(image) && images.indexOf(image) === index,
+    );
+  };
 
   const loadExpeditions = async () => {
     setIsLoading(true);
@@ -162,20 +241,18 @@ export default function ExpeditionsPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.05 }}
                 >
+                  {(() => {
+                    const cardImages = getCardImages(expedition);
+
+                    return (
                   <Link
                     to={`/expeditions/${expedition._id}`}
                     className="group block"
                   >
-                    <div className="mb-6 overflow-hidden">
-                      <Image
-                        src={
-                          expedition.mainImage ||
-                          expeditionsPageContent.cardFallbackImage
-                        }
-                        alt={expedition.name || "Expedition"}
-                        className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
+                    <ExpeditionCardImageCarousel
+                      images={cardImages}
+                      alt={expedition.name || "Expedition"}
+                    />
 
                     <div className="space-y-4">
                       <div className="flex justify-between items-start gap-4">
@@ -221,6 +298,8 @@ export default function ExpeditionsPage() {
                       )}
                     </div>
                   </Link>
+                    );
+                  })()}
                 </motion.div>
               ))}
             </div>
