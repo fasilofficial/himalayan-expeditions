@@ -7,7 +7,7 @@ export const expeditions = [
     mainImage: "/photos/image-00123.jpg",
     images: [
       "https://static.wixstatic.com/media/51cacb_c3f7efc8bc834f76b45edba6231b16ec~mv2.png?originWidth=1280&originHeight=704",
-      "image-00123.jpg",
+      "/photos/image-00123.jpg",
       "https://static.wixstatic.com/media/51cacb_241081de656a4cacb0e81042bdf9063a~mv2.png?originWidth=1280&originHeight=704",
     ],
     destination: "Kathmandu, Nepal",
@@ -92,9 +92,9 @@ export const expeditions = [
     price: 1500,
     mainImage:
       "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
-    destination: "Nepal",
+    destination: "Kathmandu, Nepal",
     durationInDays: 13,
-    difficulty: "Strenuous",
+    difficulty: "Extreme",
     highlights:
       "Trek to the breathtaking Gokyo Lakes, nestled in the majestic Himalayas. Experience the vibrant culture and rich traditions of the Sherpa community. Discover Namche Bazaar, a unique blend of ancient heritage and modern mountain life. Witness the serene beauty of the Gokyo Lakes during your journey. Ascend Gokyo Ri at 5,483 m for an unforgettable adventure. Enjoy panoramic views of Everest, Cho Oyu, Makalu, and the Ngozumpa Glacier from Gokyo Ri.",
     itinerary:
