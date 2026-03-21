@@ -302,7 +302,7 @@ export default function ExpeditionDetailPage() {
                           {expeditionDetailPageContent.priceLabel}
                         </p>
                         <p className="font-heading text-4xl text-foreground">
-                          ${expedition.price}
+                          £{expedition.price}
                         </p>
                         <p className="font-paragraph text-sm text-secondary mt-2">
                           {expeditionDetailPageContent.perPersonLabel}

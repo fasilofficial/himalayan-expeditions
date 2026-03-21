@@ -245,59 +245,58 @@ export default function ExpeditionsPage() {
                     const cardImages = getCardImages(expedition);
 
                     return (
-                  <Link
-                    to={`/expeditions/${expedition._id}`}
-                    className="group block"
-                  >
-                    <ExpeditionCardImageCarousel
-                      images={cardImages}
-                      alt={expedition.name || "Expedition"}
-                    />
+                      <Link
+                        to={`/expeditions/${expedition._id}`}
+                        className="group block"
+                      >
+                        <ExpeditionCardImageCarousel
+                          images={cardImages}
+                          alt={expedition.name || "Expedition"}
+                        />
 
-                    <div className="space-y-4">
-                      <div className="flex justify-between items-start gap-4">
-                        <h3 className="font-heading text-2xl text-foreground group-hover:text-accent-blue transition-colors">
-                          {expedition.name}
-                        </h3>
-                        {expedition.price && (
-                          <span className="font-paragraph text-xl text-foreground font-medium whitespace-nowrap">
-                            ${expedition.price}
-                          </span>
-                        )}
-                      </div>
+                        <div className="space-y-4">
+                          <div className="flex justify-between items-start gap-4">
+                            <h3 className="font-heading text-2xl text-foreground group-hover:text-accent-blue transition-colors">
+                              {expedition.name}
+                            </h3>
+                            {expedition.price && (
+                              <span className="font-paragraph text-xl text-foreground font-medium whitespace-nowrap">
+                                £{expedition.price}
+                              </span>
+                            )}
+                          </div>
 
-                      {expedition.shortDescription && (
-                        <p className="font-paragraph text-base text-secondary leading-relaxed line-clamp-2">
-                          {expedition.shortDescription}
-                        </p>
-                      )}
+                          {expedition.shortDescription && (
+                            <p className="font-paragraph text-base text-secondary leading-relaxed line-clamp-2">
+                              {expedition.shortDescription}
+                            </p>
+                          )}
 
-                      <div className="flex flex-wrap items-center gap-4 font-paragraph text-sm text-secondary">
-                        {expedition.destination && (
-                          <span>{expedition.destination}</span>
-                        )}
-                        {expedition.destination &&
-                          expedition.durationInDays && <span>•</span>}
-                        {expedition.durationInDays && (
-                          <span>{expedition.durationInDays} Days</span>
-                        )}
-                        {expedition.durationInDays && expedition.difficulty && (
-                          <span>•</span>
-                        )}
-                        {expedition.difficulty && (
-                          <span>{expedition.difficulty}</span>
-                        )}
-                      </div>
+                          <div className="flex flex-wrap items-center gap-4 font-paragraph text-sm text-secondary">
+                            {expedition.destination && (
+                              <span>{expedition.destination}</span>
+                            )}
+                            {expedition.destination &&
+                              expedition.durationInDays && <span>•</span>}
+                            {expedition.durationInDays && (
+                              <span>{expedition.durationInDays} Days</span>
+                            )}
+                            {expedition.durationInDays &&
+                              expedition.difficulty && <span>•</span>}
+                            {expedition.difficulty && (
+                              <span>{expedition.difficulty}</span>
+                            )}
+                          </div>
 
-                      {expedition.isFeatured && (
-                        <div className="inline-block">
-                          <span className="font-paragraph text-xs text-accent-blue border border-accent-blue px-3 py-1">
-                            FEATURED
-                          </span>
+                          {expedition.isFeatured && (
+                            <div className="inline-block">
+                              <span className="font-paragraph text-xs text-accent-blue border border-accent-blue px-3 py-1">
+                                FEATURED
+                              </span>
+                            </div>
+                          )}
                         </div>
-                      )}
-                    </div>
-                  </Link>
+                      </Link>
                     );
                   })()}
                 </motion.div>

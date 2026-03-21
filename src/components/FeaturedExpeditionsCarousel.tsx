@@ -164,7 +164,7 @@ export default function FeaturedExpeditionsCarousel({
                           {homePageContent.featuredCarousel.startingFromLabel}
                         </span>
                         <span className="font-heading text-2xl text-foreground">
-                          ${expedition.price}
+                          £{expedition.price}
                         </span>
                       </div>
                       <Link to={`/expeditions/${expedition.id}`}>
