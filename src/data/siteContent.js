@@ -1208,9 +1208,9 @@ export const footerContent = {
     "Guided and tailor-made trips to the Himalayas and incredible international destinations — authentic adventures with expert guidance",
   socialLinks: {
     facebook: "https://facebook.com",
-    instagram: "https://instagram.com",
+    instagram: "https://www.instagram.com/limitlessadventures2026",
     twitter: "https://twitter.com",
-    whatsapp: "https://wa.me",
+    whatsapp: "https://wa.me/447727612656",
   },
   quickLinks: [
     {
@@ -1235,9 +1235,9 @@ export const footerContent = {
     },
   ],
   contact: {
-    email: "info@himalayanexpeditions.com",
-    phone: "+977 123 456 789",
-    phoneHref: "+977123456789",
+    email: "limitlessadventures2026@gmail.com",
+    phone: "+44 7727 612656",
+    phoneHref: "+447727612656",
     location: "Kathmandu, Nepal",
   },
   legalLinks: [
