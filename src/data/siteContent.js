@@ -1298,7 +1298,7 @@ export const homePageContent = {
     description:
       "A portion of every expedition directly supports local Himalayan communities. We invest in education initiatives, environmental conservation, and mountain village development projects.",
     image:
-      "https://static.wixstatic.com/media/51cacb_d7f423bfade348d598df47e6031c12c9~mv2.png?originWidth=768&originHeight=1024",
+      "/photos/image-00128.jpeg",
     imageAlt: "Community Support in Himalayas",
     stats: [
       {

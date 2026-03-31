@@ -6,6 +6,8 @@ import { useSiteContent } from '@/data/contentStore';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
+const FORMSPREE_ENDPOINT = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT;
+
 const ParallaxImage = ({ src, alt, className }: { src: string; alt: string; className?: string }) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
@@ -26,6 +28,7 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', expedition: '', message: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -33,12 +36,46 @@ export default function ContactPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setSubmitError('');
+
+    if (!FORMSPREE_ENDPOINT) {
+      setSubmitError('The contact form is not connected yet. Please add the Formspree endpoint to continue.');
+      return;
+    }
+
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    setSubmitSuccess(true);
-    setFormData({ name: '', email: '', phone: '', expedition: '', message: '' });
-    setTimeout(() => setSubmitSuccess(false), 5000);
+
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          _subject: `New enquiry from ${formData.name || 'Website visitor'}`,
+        }),
+      });
+
+      const result = await response.json().catch(() => null);
+
+      if (!response.ok) {
+        const message =
+          result?.errors?.[0]?.message ||
+          'Something went wrong while sending your enquiry. Please try again.';
+        throw new Error(message);
+      }
+
+      setSubmitSuccess(true);
+      setFormData({ name: '', email: '', phone: '', expedition: '', message: '' });
+      setTimeout(() => setSubmitSuccess(false), 5000);
+    } catch (error) {
+      const fallbackMessage = 'Something went wrong while sending your enquiry. Please try again.';
+      setSubmitError(error instanceof Error ? error.message : fallbackMessage);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -66,6 +103,12 @@ export default function ContactPage() {
               {submitSuccess && (
                 <div className="mb-8 p-6 bg-accent-blue/10 border border-accent-blue">
                   <p className="font-paragraph text-base text-foreground">{contactPageContent.form.success}</p>
+                </div>
+              )}
+
+              {submitError && (
+                <div className="mb-8 p-6 border border-destructive/40 bg-destructive/5">
+                  <p className="font-paragraph text-base text-foreground">{submitError}</p>
                 </div>
               )}
 
