@@ -269,6 +269,64 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="relative w-full max-w-[120rem] mx-auto px-6 md:px-12 py-28 md:py-36">
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-14 md:mb-18">
+          <div className="max-w-3xl">
+            <span className="inline-block mb-5 text-sm tracking-widest uppercase text-accent-blue font-paragraph">
+              {homePageContent.internationalPackages.eyebrow}
+            </span>
+            <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl text-foreground leading-tight mb-6">
+              {homePageContent.internationalPackages.title}
+            </h2>
+            <p className="font-paragraph text-lg text-secondary leading-relaxed">
+              {homePageContent.internationalPackages.description}
+            </p>
+          </div>
+          <div className="hidden lg:block w-20 h-px bg-border" />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
+          {homePageContent.internationalPackages.packages.map((item, index) => (
+            <motion.article
+              key={item.country}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{ duration: 0.6, delay: index * 0.08 }}
+              className="group h-full overflow-hidden rounded-[1.75rem] border border-border/70 bg-background"
+            >
+              <div className="relative overflow-hidden">
+                <div className="aspect-[4/5] w-full overflow-hidden">
+                  <Image
+                    src={item.image}
+                    alt={item.imageAlt}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-80" />
+                <div className="absolute left-0 right-0 bottom-0 p-6">
+                  <h3 className="font-heading text-3xl text-white">
+                    {item.country}
+                  </h3>
+                </div>
+              </div>
+
+              <div className="flex flex-col p-6 md:p-7 min-h-[220px]">
+                <p className="font-paragraph text-base text-secondary leading-relaxed flex-1">
+                  {item.description}
+                </p>
+                <Link to={item.ctaPath} className="mt-8 inline-flex">
+                  <button className="group/button inline-flex items-center gap-2 border border-foreground/15 bg-foreground text-background px-5 py-3 font-paragraph text-sm uppercase tracking-[0.18em] transition-colors hover:bg-accent-blue">
+                    {homePageContent.internationalPackages.ctaLabel}
+                    <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover/button:translate-x-1" />
+                  </button>
+                </Link>
+              </div>
+            </motion.article>
+          ))}
+        </div>
+      </section>
+
       <section className="w-full max-w-[120rem] mx-auto px-6 md:px-12 py-32">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 md:mb-24">
           <div className="max-w-2xl">

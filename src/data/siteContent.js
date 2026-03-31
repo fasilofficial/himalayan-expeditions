@@ -1315,6 +1315,47 @@ export const homePageContent = {
       },
     ],
   },
+  internationalPackages: {
+    eyebrow: "Beyond The Himalayas",
+    title: "Explore More Destinations",
+    description:
+      "From the Balkans to North Africa, we also design immersive journeys beyond the Himalayan region for travelers seeking new landscapes, cultures, and unforgettable routes.",
+    ctaLabel: "Know More",
+    packages: [
+      {
+        country: "Albania",
+        image: "/photos/image-00124.jpg",
+        imageAlt: "Albania travel package",
+        description:
+          "Discover alpine villages, dramatic coastlines, and rich local culture through carefully curated adventure and discovery itineraries across Albania.",
+        ctaPath: "/contact",
+      },
+      {
+        country: "Montenegro",
+        image: "/photos/image-00125.jpeg",
+        imageAlt: "Montenegro travel package",
+        description:
+          "Experience a striking mix of mountain scenery, historic towns, and Adriatic beauty with flexible journeys built for explorers and small groups.",
+        ctaPath: "/contact",
+      },
+      {
+        country: "Turkey",
+        image: "/photos/image-00126.jpeg",
+        imageAlt: "Turkey travel package",
+        description:
+          "Travel through timeless cities, surreal landscapes, and coastal escapes with packages that balance culture, comfort, and authentic adventure.",
+        ctaPath: "/contact",
+      },
+      {
+        country: "Morocco",
+        image: "/photos/image-00127.jpeg",
+        imageAlt: "Morocco travel package",
+        description:
+          "Move from bustling souks to desert horizons and mountain passes with thoughtfully planned routes that bring Morocco's diversity to life.",
+        ctaPath: "/contact",
+      },
+    ],
+  },
   gallery: {
     title: "Visual Journal",
     description:
