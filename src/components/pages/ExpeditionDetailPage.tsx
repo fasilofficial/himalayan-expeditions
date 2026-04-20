@@ -7,15 +7,151 @@ import { Expeditions } from "@/entities";
 import { motion } from "framer-motion";
 import {
   ArrowLeft,
+  BedSingle,
   Calendar,
   CheckCircle2,
+  Clock3,
   ChevronDown,
   MapPin,
   TrendingUp,
+  UtensilsCrossed,
   XCircle,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+
+type ItineraryMetaLabel = "Accommodation" | "Meals" | "Treks Duration";
+
+type ItineraryParsedBlock =
+  | { type: "paragraph"; text: string }
+  | { type: "subheading"; text: string }
+  | { type: "meta"; label: ItineraryMetaLabel; value: string }
+  | { type: "labelledText"; label: string; value: string };
+
+type ItineraryRenderBlock =
+  | Exclude<ItineraryParsedBlock, { type: "meta" }>
+  | {
+      type: "metaGroup";
+      items: Array<{ label: ItineraryMetaLabel; value: string }>;
+    };
+
+const KNOWN_ITINERARY_META_LABELS = [
+  "Accommodation",
+  "Meals",
+  "Treks Duration",
+] as const;
+
+const ITINERARY_META_ICON_MAP = {
+  Accommodation: BedSingle,
+  Meals: UtensilsCrossed,
+  "Treks Duration": Clock3,
+} as const;
+
+const normalizeItineraryText = (text: string) =>
+  text.replace(/\r\n?/g, "\n").replace(/\/n/g, "\n");
+
+const getKnownMetaLabel = (label: string): ItineraryMetaLabel | null => {
+  const normalizedLabel = label.trim().replace(/:$/, "").toLowerCase();
+
+  const matchedLabel = KNOWN_ITINERARY_META_LABELS.find(
+    (knownLabel) => knownLabel.toLowerCase() === normalizedLabel,
+  );
+
+  return matchedLabel || null;
+};
+
+const isNumberedSubheading = (text: string) => /^\d+\)\s*\S+/.test(text.trim());
+
+const isStandaloneSubheading = (text: string) => {
+  const trimmedText = text.trim();
+
+  if (!trimmedText) return false;
+  if (isNumberedSubheading(trimmedText)) return true;
+
+  return trimmedText.endsWith(":") && !getKnownMetaLabel(trimmedText);
+};
+
+const parseItineraryDescription = (description: string): ItineraryRenderBlock[] => {
+  const normalizedDescription = normalizeItineraryText(description);
+  const rawBlocks = normalizedDescription
+    .split(/\n\s*\n+/)
+    .map((block) => block.trim())
+    .filter(Boolean);
+
+  const parsedBlocks: ItineraryParsedBlock[] = rawBlocks.map((block) => {
+    const lines = block
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean);
+
+    if (!lines.length) {
+      return { type: "paragraph", text: block };
+    }
+
+    const [firstLine, ...remainingLines] = lines;
+    const inlineLabelMatch = firstLine.match(/^([^:]+):\s*(.+)$/);
+
+    if (inlineLabelMatch) {
+      const label = inlineLabelMatch[1].trim();
+      const value = inlineLabelMatch[2].trim();
+      const knownMetaLabel = getKnownMetaLabel(label);
+
+      if (knownMetaLabel) {
+        return { type: "meta", label: knownMetaLabel, value };
+      }
+
+      return { type: "labelledText", label, value };
+    }
+
+    const knownMetaLabel = getKnownMetaLabel(firstLine);
+
+    if (knownMetaLabel && remainingLines.length > 0) {
+      return {
+        type: "meta",
+        label: knownMetaLabel,
+        value: remainingLines.join(" ").trim(),
+      };
+    }
+
+    if (firstLine.endsWith(":") && remainingLines.length > 0) {
+      return {
+        type: "labelledText",
+        label: firstLine.replace(/:$/, "").trim(),
+        value: remainingLines.join(" ").trim(),
+      };
+    }
+
+    if (lines.length === 1 && isStandaloneSubheading(firstLine)) {
+      return { type: "subheading", text: firstLine };
+    }
+
+    return {
+      type: "paragraph",
+      text: lines.join(" ").trim(),
+    };
+  });
+
+  return parsedBlocks.reduce<ItineraryRenderBlock[]>((blocks, block) => {
+    if (block.type !== "meta") {
+      blocks.push(block);
+      return blocks;
+    }
+
+    const previousBlock = blocks[blocks.length - 1];
+
+    if (previousBlock?.type === "metaGroup") {
+      previousBlock.items.push({ label: block.label, value: block.value });
+      return blocks;
+    }
+
+    blocks.push({
+      type: "metaGroup",
+      items: [{ label: block.label, value: block.value }],
+    });
+
+    return blocks;
+  }, []);
+};
 
 export default function ExpeditionDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -290,18 +426,81 @@ export default function ExpeditionDetailPage() {
                                   </button>
 
                                   {isExpanded && (
-                                    <div className="border-t border-foreground/10 px-5 py-4">
-                                      {item.description
-                                        .split("\n")
-                                        .filter((line) => line.trim())
-                                        .map((line, lineIndex) => (
-                                          <p
-                                            key={lineIndex}
-                                            className="font-paragraph text-base text-secondary leading-relaxed"
-                                          >
-                                            {line}
-                                          </p>
-                                        ))}
+                                    <div className="border-t border-foreground/10 px-5 py-5">
+                                      <div className="space-y-6">
+                                        {parseItineraryDescription(
+                                          item.description,
+                                        ).map((block, blockIndex) => {
+                                          if (block.type === "paragraph") {
+                                            return (
+                                              <p
+                                                key={blockIndex}
+                                                className="font-paragraph text-base text-secondary leading-relaxed"
+                                              >
+                                                {block.text}
+                                              </p>
+                                            );
+                                          }
+
+                                          if (block.type === "subheading") {
+                                            return (
+                                              <h4
+                                                key={blockIndex}
+                                                className="font-heading text-2xl text-foreground"
+                                              >
+                                                {block.text}
+                                              </h4>
+                                            );
+                                          }
+
+                                          if (block.type === "labelledText") {
+                                            return (
+                                              <div key={blockIndex} className="space-y-2">
+                                                <h4 className="font-heading text-2xl text-foreground">
+                                                  {block.label}:
+                                                </h4>
+                                                <p className="font-paragraph text-base text-secondary leading-relaxed">
+                                                  {block.value}
+                                                </p>
+                                              </div>
+                                            );
+                                          }
+
+                                          return (
+                                            <div
+                                              key={blockIndex}
+                                              className="grid gap-4 md:grid-cols-2 xl:grid-cols-3"
+                                            >
+                                              {block.items.map((metaItem) => {
+                                                const Icon =
+                                                  ITINERARY_META_ICON_MAP[
+                                                    metaItem.label
+                                                  ];
+
+                                                return (
+                                                  <div
+                                                    key={`${metaItem.label}-${metaItem.value}`}
+                                                    className="flex items-start gap-4 rounded-2xl border border-foreground/10 bg-muted/30 px-4 py-4"
+                                                  >
+                                                    <Icon
+                                                      className="mt-1 h-8 w-8 flex-shrink-0 text-accent-blue"
+                                                      strokeWidth={1.8}
+                                                    />
+                                                    <div>
+                                                      <p className="font-heading text-xl text-foreground">
+                                                        {metaItem.label}
+                                                      </p>
+                                                      <p className="font-paragraph text-base text-secondary leading-relaxed">
+                                                        {metaItem.value}
+                                                      </p>
+                                                    </div>
+                                                  </div>
+                                                );
+                                              })}
+                                            </div>
+                                          );
+                                        })}
+                                      </div>
                                     </div>
                                   )}
                                 </div>

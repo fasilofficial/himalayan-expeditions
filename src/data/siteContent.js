@@ -13,6 +13,95 @@ export const expeditions = [
       "Seizing the opportunity to walk in the footsteps of the great climbers that have summited Everest.\nLed up the mountain by my good friend Santosh. He is the best sherpa on Everest!\nEating, sleeping and drinking in native guesthouses along the way and feeling the warmth and love from the people of the Everest Region restores hope in the human spirit and inspires us all to be better stewards of the environment.\nThrilling mountain flight to & from Lukla.\nHike up to Kala Patthar (18,205 ft), Everest Base Camp (17,600 ft) & traverse through Khumbu Glacier.\nInspiring views of Mount Everest & other 23,000 - 26,000 ft peaks along with the Khumbu Icefall.\nWalk past the scenic Sagarmatha National Park & experience Sherpa culture.",
     itinerary:
       "Arrival In Kathmandu (1400 M) (Overnight At Hotel With Breakfast)\nCombined Sightseeing Of Kathmandu And Bhaktapur (Overnight At Hotel With Breakfast) After breakfast, you will do the combined sightseeing of Kathmandu and Bhaktapur with a city guide.\nFly To Lukla And Trek To Phakding (2652m, 3 Hours) (Overnight At Hotel With 3 Meals)\nTrek To Namche Bazaar (3440m, 6 Hours) (Overnight At Hotel With 3 Meals)\nNamche Bazar And Everest View Hotel (Overnight At Hotel With 3 Meals)\nTrek To Tengboche (3860m, 5 Hours) (Overnight At Hotel With 3 Meals)\nTrek To Dingboche (4410m, 5 Hours) (Overnight At Hotel With 3 Meals)\nDingboche To Nagerjun And Back (5100m, 6 Hrs) (Overnight At Hotel With 3 Meals)\nTrek To Lobuche (4910m, 5 Hrs) (Overnight At Hotel With 3 Meals)\nTrek To Everest Base Camp And Gorakshep (5181m, 8 Hours) (Overnight At Hotel With 3 Meals)\nHiking To Kalapathar (5545m) And Gorakshep And Pheriche (4210m, 7 Hrs) (Overnight At Hotel With 3 Meals)\nTrek To Namche (3440m, 7 Hours) (Overnight At Hotel With 3 Meals)\nTrek To Lukla (2800m, 7 Hrs) (Overnight At Hotel With 3 Meals)\nFly To Kathmandu And Farewell Dinner Overnight At Hotel.\nDeparture From Kathmandu (Breakfast Is Included And Transportation Is Provided)",
+    itineraryItems: [
+      {
+        title:
+          "Arrival In Kathmandu (1400 M) (Overnight At Hotel With Breakfast)",
+        description:
+          "After your arrival in Tribhuwan International Airport, you will find us outside the airport with the banner of Sherpa Summit Treks and Expedition. If you arrive in the evening or at the middle of the night, we take you straightly to the hotel by vehicles, such as car, van, depending on the number of passengers. If you arrive in the day, we will take you to our office, where we will talk about your trip in detail, telling you about do’s and don’ts. If you have a free time in the day, then you can use it to visit the places that are around your hotel, most probably, you will be staying in Thamel, which is a lively town for the tourists. You can also ask any questions related to your trip.\n\nIf you have made a half-payment to us then you are requested to pay the remaining balance now. As you come to our office, please bring your passport, which has a validity of 6 months, including three copies of passport-sized photos, and a readable copy of your travel insurance paper. This is followed by the signing of the paper of your trip, as well as non-liability disclaimer paper.",
+      },
+      {
+        title:
+          "Combined Sightseeing Of Kathmandu And Bhaktapur (Overnight At Hotel With Breakfast)",
+        description:
+          "After breakfast, you will do the combined sightseeing of Kathmandu and Bhaktapur with a city guide. The former is the city of temple, while the latter is the oldest city of Nepal. These cities have lots of historical monuments, so you will visit these monuments selectively. We have to make a selection because the sightseeing of these cities is of half-day. This much time will be enough to visit Kathmandu Durbar Square, Boudhanath, and Changu Narayan Temple in Kathmandu and Bhaktapur. Not only these, Sherpa Summit Treks and Expedition will also provide you an option of visiting Pashupatinath Temple, Monkey Temple, and others. In addition to these, gives the top-most prioritization to your favorite places. Your visit is important to us, and we always cooperate with you.\n\n1) Kathmandu Durbar Square\n\nWhen in Kathmandu, don’t forget to pay a visit to Kathmandu Durbar Square, a World Heritage Site surrounded by historic buildings. Although the square has suffered extensive damage in the 2015 earthquake, many of the buildings remain standing and some will undergo refurbishments. Enjoy the traditional Nepalese architecture of the spacious square and get a feel for the Kathmandu city atmosphere. Admire the house of the Kumari, left unscathed in the earthquake, where the virgin goddess lives until reaching puberty. If you’re lucky, you may catch a glimpse of her passing by a window.\n\n2) Boudhanath Stupa\n\nOne of the largest and most important structures of its kind in the country, Boudhanath Stupa holds a spot on the World Heritage List and serves as an icon of the city. Pay a visit to this holy site and you’ll find it an epicenter of Tibetan Buddhism in the region, as the complex features a number of monasteries around it. Marvel at the stupa’s massive base, topped with a sizable dome and a towering manadala, the golden triangular spire at the top. You can also admire the colorful statues around the dome and the tower’s mysterious painted-on eyes. Rumor has it that circling the stupa can help to free you from your sins. The devastating earthquake in April of 2015 severely damaged the structure, causing the removal of the entire top portion and calling for a massive reconstruction project.\n\n3)Pashupatinath Temple\n\nPashupatinath is one of the most sacred Hindu shrines in the world and lies 5 kms east of the city center. The richly-ornamented pagoda houses the sacred Linga, or phallic symbol, of Lord Shiva. Chronicles indicate the temple’s existence prior to 400 AD. Devotees can be seen taking ritual dips in the holy Bagmati River flowing beside the temple.\n\n4) Bhaktapur\n\nOn a tour of Bhaktapur, an ancient city in the World Heritage-listed Kathmandu Valley, discover a rich tapestry of Nepalese culture and history. Its innumerable pagoda temples, antique buildings, and monuments, although somewhat damaged in the 2015 earthquake, still captivate visitors who make the journey to this vibrant city. Tour Bhaktapur’s narrow, pedestrian-only streets to find traditional pottery, handicrafts, and the famous local yogurt. Celebrations light up the dusty city squares almost every month of the year, often with live music, dancing, and traditional rituals.\n\nafter the tour, we will drive to Nagarkot which will take about one hour.",
+      },
+      {
+        title:
+          "Fly To Lukla And Trek To Phakding (2652m, 3 Hours) (Overnight At Hotel With 3 Meals)",
+        description:
+          "From Kathmandu, you fly to Lukla, the gateway to Mt. Everest. There are 18 to 20 flights per day to Lukla in a good weather, and the airport was renamed as the Tenzing-Hillary Airport in the name of Sir Edmund Hillary and Tenzing Norgay Sherpa. Only pilots, who have experienced of 7 years in aviation, are permitted to fly small aircrafts to Lukla, from where, you head off to Phakding through lush forest, hills, and valleys, seeing the beautiful view of mountain called Kusum Kangru.",
+      },
+      {
+        title:
+          "Trek To Namche Bazaar (3440m, 6 Hours) (Overnight At Hotel With 3 Meals)",
+        description:
+          "From Phakding, you head off to Namche by following the Dudh Koshi River, and the trekking route passes through pine and cedar forest, wherein you come across ethnic Sherpa villages, eventually, you reach Namche, which is a meeting point of the Tibetean and the Nepali traders, who deal in salt, dried meat and textiles, and this village is the largest Sherpa village in Nepal and has lots of shops and restaurants.",
+      },
+      {
+        title:
+          "Namche Bazar And Everest View Hotel (Overnight At Hotel With 3 Meals)",
+        description:
+          "Today is an acclimatization day, and we will hike to the Syangboche Airport (3700 m), probably the highest airport in the world, and then we hike further to Everest View Hotel to see a breathtaking view of mountains, such as Everest, Lhotse, Amadablam, Tawache, and both named and unnamed mountains. While returning, we visit a museum, known as Sherpa Culture Museum, wherein you see dresses and musical instruments of the Sherpa people, including the photos of Mt. Everest.",
+      },
+      {
+        title:
+          "Trek To Tengboche (3860m, 5 Hours) (Overnight At Hotel With 3 Meals)",
+        description:
+          "The trekking route that we are going to walk on today, descends into the Dudh Kosi Valley and then ascends, eventually reaches Tengboche. This is a village, which has a famous monastery of the Everest Region, and it is a 5 hr journey to it, and most of the time, you will be ascending, so you might be tired, but this is a trek, wherein you might forget your tiredness by looking at the world’s most beautiful mountain, called Ama Dablam. In addition to these, you will see Everest, the world’s highest mountain.",
+      },
+      {
+        title:
+          "Trek To Dingboche (4410m, 5 Hours) (Overnight At Hotel With 3 Meals)",
+        description:
+          "While trekking today, you come across forest, Imja Khola (river) and Pangbocje, a village, and the view of the mountains keeps on coming to your sight. You see the famous mountains of the Everest Region, such as Ama Dablam and Lhotse, in addition to other peaks. There is a pasture ahead, which is known as the Summer Valley,from where you walk further to reach Dingboche.",
+      },
+      {
+        title:
+          "Dingboche To Nagerjun And Back (5100m, 6 Hrs) (Overnight At Hotel With 3 Meals)",
+        description:
+          "From Dingboche, you head off to Nagerjun, which sits on the flank of the Chukkung Valley, and Nagerjun is a hilly village, and we can say it is just above Dingboche. The route to it is steep, so it is tiring. From the top of the hill, you can see a breathtaking view of mountains, such as Lobuche East (6119m), Lobuche West (6145m), Taboche Peak (6367m), Thamserku (6608m), Kangtega (6685m), Ama Dablam (6856m) Makalu (8463 m) the fifth highest mountain in the world.",
+      },
+      {
+        title:
+          "Trek To Lobuche (4910m, 5 Hrs) (Overnight At Hotel With 3 Meals)",
+        description:
+          "From Dingboche, we climb upward and reach the Khumbu Glacier and see prayer flags and the memorials of the mountain climbers and climbing guides. We continue our trek to reach moraine, where we will be surrounded by great peaks, such as Khumbutse, Lingtren, Pumori, and Mahalangur Himal and then descend to the yak pasture, which is in the adjoining area of Lobuche.",
+      },
+      {
+        title:
+          "Trek To Everest Base Camp And Gorakshep (5181m, 8 Hours) (Overnight At Hotel With 3 Meals)",
+        description:
+          "We walk by Gorak Shep Lake. We walk upward, where the air is thin. We come across rocky dunes, moraine and streams before reaching Everest Base Camp. From the camp, we can see a spectacular view of mountains, such as Nuptse, Khumbuste and Pumori. We will also see the Khumbu Glacier and Icefall. Thase are some of the highlights of Everest Base Camp Short Trek. We spend a night at Gorakshep.",
+      },
+      {
+        title:
+          "Hiking To Kalapathar (5545m And Gorakshep And Pheriche (4210m, 7 Hrs) (Overnight At Hotel With 3 Meals)",
+        description:
+          "Hiking to Kalapathar means reaching the best viewpoint in the Everest Region and seeing the best view of Mt. Everest. As the sun’s rays strike the snow-capped mountains, including Everest, they become golden in color and look incredible. From there, we descend to Gorekshep and Pheriche. Other mountains that come to our eyes are Lingtren, Khumbutse, and Changtse. You will take a lot of photos from Kalapathar because of the panoramic view of Mt. Everest, and taking this kind of photos is it is the moment to enjoy.",
+      },
+      {
+        title: "Trek To Namche (3440m, 7 Hours) (Overnight At Hotel With 3 Me)",
+        description:
+          "Today’s trek is not only moderate but also easy in nature and scenic in sight because it goes downhill through rhododendron, pine, and juniper trees, reaches the Dudh Koshi River and the Dudh Koshi gorge and takes you into the areas of pheasants and mountain goats and then extend to reach Sansa from where you can see a beautiful view of mountains, such as Ama Dablam, Thamserku and Nuptse, but before reaching Namche, the trekking route becomes winding.",
+      },
+      {
+        title: "Trek To Lukla (2800m, 7 Hrs) (Overnight At Hotel With 3 Meals)",
+        description:
+          "The trekking trail descends to the valley and takes you to the suspension bridges over the Dudh Koshi River and is easy to do, and we will be walking most of the time along the Dudh Kosi River. Later this trail joins with Lukla, from where we catch a return flight to Kathmandu, the city of temples. And it is in Lukla, we feel that we have done the world’s best trek in 14 days.",
+      },
+      {
+        title: "Fly To Kathmandu And Farewell Dinner Overnight At Hotel.",
+        description:
+          "We catch an early morning flight to Kathmandu. After reaching Kathmandu, we can take a rest or do some souvenir shopping. If you are interested, then Sherpa Summit Treks and Expedition help you in souvenir shopping. Later in the evening, you will have a farewell dinner in a Nepali restaurant, where you can see Nepali dance.Also, there will be Nepali music and songs. Along with these, there is a lot of tourism activities that you can do in Nepal. Some of these are jungle safari, biking, and mountain flight.",
+      },
+      {
+        title:
+          "Departure From Kathmandu (Breakfast Is Included And Transportation Is Provided)",
+        description:
+          "Today is the last day of your trip. We make sure that you reach the Tribhuwan International Airport on time for departure. We will take you approximately 3 hours before your scheduled flight. We will keep in touch with you through emails. Since Nepal is the cheapest tourist destination in the world for any tourism activities, Sherpa Summit Treks and Expedition is always ready to provide you service.",
+      },
+    ],
     whatsIncluded:
       "Airport / Hotel / Airport pick up & drop off service by a private tourist vehicle.\nStandard twin-sharing accommodation in a three-star hotel in Kathmandu (3 nights only) including breakfast.\nGuided city tour in Kathmandu valley by a private tourist vehicle.\nAll standard meals during the trek (Breakfast, lunch and dinner).\nBasic guesthouse accommodation during the trek in mostly twin-share and occasionally dormitory-style rooms (4 nights only).\nLocal Nepali expert guide (English speaking).\nThe required number of local staff and porters to carry your luggage during the trek (One porter for every two guests).\nFood, accommodation, salary, insurance, equipment and medicine for all staff.\nFree duffle bag and sun hat provided.\nSightseeing/Monument entrance fees in Kathmandu.\nAll our government taxes, VAT, tourist service charges.\nOfficial expenses.\nArrival and Departure transfers on both domestic and international flights.\nStandard hotel accommodation in Kathmandu on a twin share bed-and-breakfast basis as per Everest Base Camp trek itinerary.\nOpen and choice full board meals while Everest Base Camp Kalapathar trekking.\nResponsible trekking policy of One trekker : One porter.\nAccommodation at clean and comfortable tea house or lodge.\nWelcome dinner with cultural program as listed in the itinerary.\nAll domestic flights and airport tax as listed in the itinerary.\nPrivate transportation to and from the starting and ending points of the trek as applicable.\nProfessional local trekking group leader well trained in Wilderness First Aid.\nPersonal Sherpa porters to carry all trek personal gear while on Base Camp trekking.\nInsurance of all staff including porters in Base Camp Kalapathar hike.\nWarm clothing and required trekking gear for porters like Gortex jacket / trousers, trekking shoes, woolen hat, woolen gloves, woolen socks, sun glasses etc.\nComplementary Sherpa Summit Treks and Expedition Everest Base Camp trek T-shirts.\nComprehensive per-departure information and trip dossiers.\nTIMS trekking permit, Everest National Park entry fees for Everest Base Camp trekking.",
     whatsNotIncluded:
@@ -33,6 +122,99 @@ export const expeditions = [
       "Island Peak (6,189m) climbing combined with Everest Base Camp and Kala Patthar for close-up Everest views\nPerfect for beginners with little to no mountaineering experience, offering a great introduction to Himalayan climbing\nExperience Sherpa culture and explore the Khumbu Valley with stays in traditional mountain villages\nStunning views of major Himalayan peaks including Everest, Lhotse, Makalu, Ama Dablam, and Baruntse",
     itinerary:
       "Arrival In Kathmandu (1400 M)\nCombined sightseeing of Kathmandu and Bhaktapur\nFly to Lukla and trek to Phakding (2652m, 3 hours)\nTrek to Namche Bazaar (3440m)\nNamche Bazar And Everest View Hotel\nTrek To Tengboche (3860m)\nTrek To Dingboche (4410m)\nDingboche to Nagerjun and back (5100m)\nTrek to Lobuche (4910m)\nTrek to Everest Base Camp and Gorakshep (5181m)\nHiking to Kalapatthar (5545m) – Gorekshep – Dingboche (4410m)\nDingboche to Island Peak Base Camp (5240m)\nIsland Peak Base Camp to Summit Peak (6189m) and back to Chhukung\nReserve day for Contingency\nChhukung to Namche (3440m)\nNamche to Lukla (2800m)\nFly to Kathmandu and Farewell Dinner\nDeparture from Kathmandu",
+    itineraryItems: [
+      {
+        title: "Arrival In Kathmandu (1400 M)",
+        description:
+          "After your arrival in Tribhuwan International Airport, you will find us outside the airport with the banner of Sherpa Summit Treks and Expedition. If you arrive in the evening or at the middle of the night, we take you straightly to the hotel by vehicles, such as car, van, depending on the number of passengers. If you arrive in the day, we will take you to our office, where we will talk about your trip in detail, telling you about do’s and don’ts. If you have a free time in the day, then you can use it to visit the places that are around your hotel, most probably, you will be staying in Thamel, which is a lively town for the tourists. You can also ask any questions related to your trip. If you have made a half-payment to us then you are requested to pay the remaining balance now.\n\nAs you come to our office, please bring your passport, which has a validity of 6 months, including three copies of passport-sized photos, and a readable copy of your travel insurance paper. This is followed by the signing of the paper of your trip, as well as non-liability disclaimer paper.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Combined sightseeing of Kathmandu and Bhaktapur",
+        description:
+          "After breakfast, you will do the combined sightseeing of Kathmandu and Bhaktapur with a city guide. The former is the city of temple, while the latter is the oldest city of Nepal. These cities have lots of historical monuments, so you will visit these monuments selectively. We have to make a selection because the sightseeing of these cities is of half-day.This much time will be enough to visit Kathmandu Durbar Square, Boudhanath, and Changu Narayan Temple in Kathmandu and Bhaktapur. Not only these, Sherpa Summit Treks and Expedition will also provide you an option of visiting Pashupatinath Temple, Monkey Temple, and others. In addition to these, Sherpa Summit Treks and Expedition gives the top-most prioritazation to your favorite places. Your visit is important to us, and we always cooperate with you.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Fly to Lukla and trek to Phakding (2652m, 3 hours)",
+        description:
+          "From Kathmandu, you fly to Lukla in a small aircraft, called twin otter. Lukla is the gateway to Mt. Everest. There are 18 to 20 flights per day, and the name of the Lukla Airport is Tenzing-Hillary Airport. Only pilots, who have 7 years experience in aviation, are permitted to fly to Lukla. From there, you head off to Phakding through lush forest, hills, and valleys. On the way, there is a beautiful view of Kusum Kangru which is a mountain.\n\nIn Case of Flight Delay to Lukla and Kathmandu\n\nTenzing-Hillary Airport is located at an altitude of 2860 m. It is a hilly airport. It is also surrounded by the snow-covered mountains, Lukla has mountain weather. Sometimes, this weather changes unfavourably and causes a flight delay. In such a case, the helicopter will be charted upon your request by Sherpa Summit Treks and Expedition. The fare per person will vary from helicopter to helicopter or from company to company. The fare will be roughly between USD 500 to USD 3000. The helicopter has a capacity for 4 to 6 passengers, and it can fly even at the low visibility of 1500 m, while the twin otter flies at the high visibility of 5000 m.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Trek to Namche Bazaar (3440m)",
+        description:
+          "From Phakding, you head off to Namche by following the Dudh Koshi River, and the trekking route passes through pine and cedar forest, wherein you come across ethnic Sherpa villages, eventually, you reach Namche, which is a meeting point of the Tibetean and the Nepali traders, who deal in salt, dried meat and textiles, and this village is the largest Sherpa village in Nepal and has lots of shops and restaurants.\n\nTreks Duration:\n6 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Namche Bazar And Everest View Hotel",
+        description:
+          "Today is an acclimatization day, and we will hike to Syangboche Airport (3700 m), probably the highest airport in the world, and then we hike further to Everest View Hotel to see a breathtaking view of mountains, such as Everest, Lhotse, Amadablam, Tawache, and both named and unnamed mountains. While returning, we visit a museum, known as Sherpa Culture Museum, wherein you see dresses and musical instruments of the Sherpa people, including the photos of Mt. Everest.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Tengboche (3860m)",
+        description:
+          "The trekking route that we are going to walk on today, descends into the Dudh Kohsi Valley and then ascends, eventually reaches Tengboche. This is a village, which has a famous monastery of the Everest Region, and it is a 5 hr journey to it, and most of the time, you will be ascending, so you might be tired, but this is a trek, wherein you might forget your tiredness by looking at the world’s most beautiful mountain, called Ama Dablam. In addition to these, you will see Everest, the world’s highest mountain.\n\nTreks Duration:\n5 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Dingboche (4410m)",
+        description:
+          "While trekking today, you come across forest, Imja Khola (river) and Pangbocje, a village, and the view of the mountains keeps on coming to your sight. You see the famous mountains of the Everest Region, such as Ama Dablam and Lhotse, in addition to other peaks. There is a pasture ahead, which is known as the Summer Valley,from where you walk further to reach Dingboche.\n\nTreks Duration:\n5 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Dingboche to Nagerjun and back (5100m)",
+        description:
+          "From Dingboche, you head off to Nagerjun, which sits on the flank of the Chukkung Valley, and Nagerjun is a hilly village, and we can say it is just above Dingboche. The route to it is steep, so it is tiring. From the top of the hill, you can see a breathtaking view of mountains, such as Lobuche East (6119m), Lobuche West (6145m), Taboche Peak (6367m), Thamserku (6608m), Kangtega (6685m), Ama Dablam (6856m) Makalu (8463 m) the fifth highest mountain in the world.\n\nTreks Duration:\n6 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Lobuche (4910m)",
+        description:
+          "From Dingboche, we climb upward and reach the Khumbu Glacier and see prayer flags and the memorials of the mountain climbers and climbing guides. We continue our trek to reach moraine, where we will be surrounded by great peaks, such as Khumbutse, Lingtren, Pumori, and Mahalangur Himal and then descend to the yak pasture, which is in the adjoining area of Lobuche.\n\nTreks Duration:\n5 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Trek to Everest Base Camp and Gorakshep (5181m)",
+        description:
+          "We walk by Gorak Shep Lake. We walk upward, where the air is thin. We come across rocky dunes, moraine and streams before reaching Everest Base Camp. From the camp, we can see a spectacular view of mountains, such as Nuptse, Khumbuste and Pumori. We will also see the Khumbu Glacier and Icefall. Thase are some of the highlights of Everest Base Camp Short Trek. We spend a night at Gorakshep.\n\nTreks Duration:\n8 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Hiking to Kalapatthar (5545m) – Gorekshep – Dingboche (4410m)",
+        description:
+          "The day starts with a hike up to Kalapatthar (5545m), an excellent viewpoint to observe Mount Everest and innumerable spectacular mountains views. Then we will trek back to Gorekshep for a hot breakfast and trek descend back to Dingboche.\n\nTreks Duration:\n7 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Dingboche to Island Peak Base Camp (5240m)",
+        description:
+          "From Dingboche, we head off to Imja Valley, seeing Ama Dablam and walk through the moraines. We will reach the base camp of Island Peak.\n\nPre-Climb Training Mountain Ascend Treks’ guides will provide training on peak climbing techniques and using climbing gears, such as ice axe, climbing boot and crampons, harness, ascender, etc.\n\nTreks Duration:\n6 Hours\n\nAccommodation:\nAt Camp\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title:
+          "Island Peak Base Camp to Summit Peak (6189m) and back to Chhukung",
+        description:
+          "We start our climbing early in the morning, that is, before the rising of the sun. the climbing route is made of rock gully, glacier, crevasses, and ridge.The climbing route is also made of steep slope. To climb on this slope, our guide will use a rope. Generally, Island Peak climbing is safe, and after enjoying the view from summit, we descend to the Island Peak Base Camp and then head off to Chhukung.\n\nTreks Duration:\n11 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Reserve day for Contingency",
+        description:
+          "If the weather is unfavorable, we will not be able to summit the Island Peak on day 13. Day 14 is needed in case we are not able to summit.\n\nAccommodation:\nTented Camp\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Chhukung to Namche (3440m)",
+        description:
+          "Leaving the mountains behind us, our descent takes us through various towns of Orsho, Somare and Pangboche, Tengboche then Phungki Thanka and complete steep to Kyangjuma, and easier trail to Namche. Overnight stay at the guesthouse at Namche Bazaar, breakfast, lunch and dinner included.\n\nTreks Duration:\n7 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Namche to Lukla (2800m)",
+        description:
+          "The trekking trail descends to the valley and takes you to the suspension bridges over the Dudh Koshi River and is easy to do, and we will be walking most of the time along the Dudh Kosi River. Later this trail joins with Lukla, from where we catch a return flight to Kathmandu, the city of temples. And it is in Lukla, we feel that we have done the world’s best trek.\n\nTreks Duration:\n7 Hours\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Fly to Kathmandu and Farewell Dinner",
+        description:
+          "We catch an early morning flight to Kathmandu. After reaching Kathmandu, we can take a rest or do some souvenir shopping. If you are interested, then Sherpa Summit Treks and Expedition help you in souvenir shopping. Later in the evening, you will have a farewell dinner in a Nepali restaurant, where you can see Nepali dance.Also, there will be Nepali music and songs. Along with these, there is a lot of tourism activities that you can do in Nepal. Some of these are jungle safari, biking, and mountain flight.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, and Dinner",
+      },
+      {
+        title: "Departure from Kathmandu",
+        description:
+          "Today is the last day of your trip. We make sure that you reach Tribhuwan International Airport on time for departure.We will take you approximately 3 hours before your scheduled flight. We will keep in touch with you through emails. Since Nepal is the cheapest tourist destination in the world for any tourism activities, Sherpa Summit Treks and Expedition is always ready to provide you service.\n\nMeals:\nBreakfast",
+      },
+    ],
     whatsIncluded:
       "All airport transfers from arrival to departure\n18 day adventure, 14 of which include 3 meals a day\nRound-trip airfare between Kathmandu/Ramecchap and Lukla\nAll Climbing Gear (Including boots, harness and helmet)\n20kg baggage allowance in flight and during trekking\nPorter service\nAirport transfers\nEnglish-speaking, government-licensed Trekking Guide\nAll applicable trekking and climbing permits\n3 nights accommodation in Kathmandu on B&B plan\nGovernment taxes, entrance fee, equipment fee, and other applicable fees\nFirst aid kit\nTrip certificate\nFarewell dinner",
     whatsNotIncluded:
@@ -53,6 +235,104 @@ export const expeditions = [
       "Explore the Historical cities; Kathmandu and Bhaktapur\nScenic flight to and from Lukla\nStep inside and experience life as the “mountain people” live in the heart of the Himalayas\nRemarkable views of Kangchenjunga, Makalu, Everest, Nuptse, Lhotse, Ama Dablam, Cho Oyu, and many other mountains\nWonderful staying Experience in a remote region\nSummit to highest trekking peak, Mera Peak at an elevation of 6,654 meters",
     itinerary:
       "Arrival in Kathmandu (1400 m)\nCombined sightseeing of Kathmandu and Bhaktapur\nFly To Lukla (2804m) And Trek To Chutok (2800m)\nTrek To Khartitang (3900m) Via Zatrawala Pass (4704m)\nTrek To Kothey (3600m)\nTrek To Tangnang (4356m)\nAcclimatization\nTrek To Khare (5045m)\nAcclimatization At Khare\nTrek To Mera La (5415m) And Base Camp (5300m)\nTrek To High Camp (5800m)\nMera High Camp To Mera Peak Summit (6654m) And Trek To Khare (4900m)\nReserve Day For Contingency\nTrek To Khothey (3600m)\nTrek To Zatrabok\nTrek To Chutenga\nTrek To Lukla\nFly To Kathmandu And Farewell Dinner\nDeparture From Kathmandu",
+    itineraryItems: [
+      {
+        title: "Arrival in Kathmandu (1400 m)",
+        description:
+          "After your arrival at Tribhuwan International Airport, you will find us outside the airport with the banner of Sherpa Summit Treks and Expedition. If you arrive in the evening or in the middle of the night, we take you straight to the hotel by vehicles, such as cars, vans, depending on the number of passengers. Else, you will be taken to our office, where we will talk about your trip in detail, telling you about do’s and don’ts. If you have some free time in the day, then you can use it to visit the places that are around your hotel, most probably, you will be staying in Thamel, which is a lively town for the tourists. You can also ask any questions related to your trip. If you have made a half-payment to us then you are requested to pay the remaining balance now.\n\nAs you come to our office, please bring your passport, which has a validity of 6 months, including three copies of passport-sized photos, and a readable copy of your travel insurance paper. This is followed by the signing of the paper of your trip, as well as the non-liability disclaimer paper.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Combined sightseeing of Kathmandu and Bhaktapur",
+        description:
+          "After breakfast, you will do the combined sightseeing of Kathmandu and Bhaktapur with a city guide. The former is the city of the temple, while the latter is the oldest city of Nepal. These cities have lots of historical monuments, so you will visit these monuments selectively. We have to make a selection because the sightseeing of these cities is half-day. This much time will be enough to visit Kathmandu Durbar Square, Boudhanath, and Changu Narayan Temple in Kathmandu and Bhaktapur. Not only these, but Sherpa Summit Treks and Expedition will also provide you the option of visiting Pashupatinath Temple, Monkey Temple, and others. In addition to these, Sherpa Summit Treks and Expedition gives the top-most prioritization to your favorite places. Your visit is important to us, and we always cooperate with you.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Fly To Lukla (2804m) And Trek To Chutok (2800m)",
+        description:
+          "From Kathmandu, you fly to Lukla in a small aircraft, called twin otter. Lukla is the gateway to Mt. Everest. There are 18 to 20 flights per day, and the name of the Lukla Airport is Tenzing-Hillary Airport. Only pilots, who have 7 years of experience in aviation, are permitted to fly to Lukla. From there, you head off to the Chutok La pass (2945).\n\nIn Case of Flight Delay to Lukla and Kathmandu\n\nTenzing-Hillary Airport is located at an altitude of 2860 m. It is a hilly airport. It is also surrounded by snow-covered mountains, Lukla has mountain weather. Sometimes, this weather changes unfavorably and causes a flight delay. In such a case, the helicopter will be charted upon your request by Sherpa Summit Treks and Expedition. The fare per person will vary from a helicopter to helicopter or from company to company. The fare will be roughly between USD 500 to USD 3000. The helicopter has a capacity for 4 to 6 passengers, and it can fly even at the low visibility of 1500 m, while the twin otter flies at the high visibility of 5000 m.\n\nTreks Duration:\n3 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Khartitang (3900m) Via Zatrawala Pass (4704m)",
+        description:
+          "After breakfast, we follow an ascending trekking trail that connects Chutenga with the Zatrawala Pass. Then, we continue walking to Zatrabok and enjoy the spectacular view of mountains, such as Numbur Himal, Kongdi RI, Karyolang peak, and so on. Following this, we follow a descending trekking trail that takes us to Khartitang at 3900 m.\n\nTreks Duration:\n7 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Kothey (3600m)",
+        description:
+          "After having breakfast, we follow a descending trekking trail that takes us to juniper and rhododendron forest and ultimately to Kothey.\n\nTreks Duration:\n5 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Tangnang (4356m)",
+        description:
+          "After having our breakfast, we head towards Tangnang, Sabal Tsho-Lake, and the Hinku valley. The trail is scenic, and we see the breathtaking view of Kusum Kanguru.\n\nTreks Duration:\n5 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Acclimatization",
+        description:
+          "Today is an acclimatization day, which means, we have to prepare ourselves for tomorrow’s higher altitudes. Your trekking guide/climbing will provide information on this. Acclimatization also means a resting day. It means a time to give a rest to your legs and heart that have walked uphill and that has beaten. Further, acclimatization also means hiking to the nearby areas.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Khare (5045m)",
+        description:
+          "Treks Duration:\n4 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Acclimatization At Khare",
+        description:
+          "Today is an acclimatization day, which means, we have to prepare ourselves for tomorrow’s higher altitudes. Your trekking guide/climbing will provide information on this. Acclimatization also means a resting day. It means a time to give a rest to your legs and heart that have walked uphill and that has beaten. Further, acclimatization also means hiking to the nearby areas.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Mera La (5415m) And Base Camp (5300m)",
+        description:
+          "We progress along the snowy glacier and approach the pass.\n\nTreks Duration:\n5 Hrs\n\nAccommodation:\nTented Camp\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To High Camp (5800m)",
+        description:
+          "Today we continue to the high camp. We will be blessed with the stunning panoramas of giant mountains rising above 7000m i.e. Chamlang (7290m), Makalu (8475m) and Baruntse (7220m) to the east, Everest (8848m), Lhotse (8501m), and Nuptse to the north and Ama Dablam, Cho Oyo (8153meters) and Kantega to the west\n\nTreks Duration:\n5 Hrs\n\nAccommodation:\nTented Camp\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Mera High Camp To Mera Peak Summit (6654m) And Trek To Khare (4900m)",
+        description:
+          "Today, the whole crew wakes up at around 1 a.m. for preparation. The climbers have to wake up around 2.30 am. We have our breakfast and put on crampons and rope. Then we embark on our journey to the summit. It takes around 4-6 hours to reach the summit of Mera. From the summit, we can see the spectacular views of Mt. Everest (8,848m), Cho-Oyu (8,210m), Lhotse (8,516m), Makalu (8,463m), Kanchenjunga (8,586m) Nuptse (7,855m), Chamlang (7,319m), Baruntse (7,129m) Ama Dablam (6,812m) Kangtega (6,779m) and many more. We then retrace our steps down to high camp. After a rest accompanied by some hot soups/tea, we continue down to Khare for the night.\n\nTreks Duration:\n10 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Reserve Day For Contingency",
+        description:
+          "If the weather is unfavorable, we will not be able to summit the Mera Peak on day 12. Day 13 is needed in case we are not able to summit.\n\nAccommodation:\nTented Camp\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Khothey (3600m)",
+        description:
+          "We leave the mountains behind and descend to Tangnang and trek along the same trail. At Kothey, we celebrate our success.\n\nTreks Duration:\n5 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Zatrabok",
+        description:
+          "We trek back to Zatrabok. The trail offers a magnificent view of alpine vegetation like huge rhododendron forests.\n\nTreks Duration:\n6 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Chutenga",
+        description:
+          "Today we head towards Chutenga. The trail ascends until we reach the Zatrawala Pass and then again descend until we reach Chutenga.\n\nTreks Duration:\n5 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek To Lukla",
+        description:
+          "The trekking trail descends to the valley and takes you to the suspension bridges over the Dudh Koshi River and is easy to do, and we will be walking most of the time along the Dudh Kosi River. Later this trail joins with Lukla, from where we catch a return flight to Kathmandu, the city of temples. And it is in Lukla, we feel that we have done the world’s best trek in 14 days.\n\nTreks Duration:\n4 Hrs\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Fly To Kathmandu And Farewell Dinner",
+        description:
+          "We catch an early morning flight to Kathmandu. After reaching Kathmandu, we can take a rest or do some souvenir shopping. If you are interested, then Sherpa Summit Treks and Expedition help you in souvenir shopping. Later in the evening, you will have a farewell dinner in a Nepali restaurant, where you can see Nepali dance. Also, there will be Nepali music and songs. Along with these, there is a lot of tourism activities that you can do in Nepal. Some of these are jungle safari, biking, and mountain flight.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Departure From Kathmandu",
+        description:
+          "Today is the last day of your trip. We make sure that you reach the Tribhuwan International Airport on time for departure. You will reach the airport approximately 3 hours before your scheduled flight. We will keep in touch with you through emails. Since Nepal is the cheapest tourist destination in the world for any tourism activities, Sherpa Summit Treks and Expedition is always ready to provide you with service.\n\nMeals:\nBreakfast",
+      },
+    ],
     whatsIncluded:
       "All airport transfers from arrival to departure\n18-day adventure, 16 of which include 3 meals a day\nRound-trip airfare between Kathmandu/Ramecchap and Lukla\nAll Climbing Gear (Including boots, harness, and helmet)\n20kg baggage allowance in flight and during trekking\nPorter service\nAirport transfers\nEnglish-speaking, government-licensed Trekking Guide\nClimbing permit for Mera peak\nAll applicable trekking and climbing permits\n3 nights’ accommodation in Kathmandu on B&B plan\nGovernment taxes, entrance fee, equipment fee, and other applicable fees\nFirst aid kit\nTrip certificate\nFarewell dinner",
     whatsNotIncluded:
@@ -74,6 +354,111 @@ export const expeditions = [
       "Seizing the opportunity to walk in the footsteps of the great climbers that have summited Everest.\nLed up the mountain by my good friend Santosh. He is the best sherpa on Everest!\nEating, sleeping and drinking in native guesthouses along the way and feeling the warmth and love from the people of the Everest Region restores hope in the human spirit and inspires us all to be better stewards of the environment.\nThrilling mountain flight to & from Lukla.\nHike up to Kala Patthar (18,205 ft), Everest Base Camp (17,600 ft) & traverse through Khumbu Glacier.\nInspiring views of Mount Everest & other 23,000 - 26,000 ft peaks along with the Khumbu Icefall.\nWalk past the scenic Sagarmata National Park & experience Sherpa culture.",
     itinerary:
       "Arrival in Kathmandu (1400 m) (overnight at hotel with breakfast)\nCombined sightseeing of Kathmandu and Bhaktapur (overnight at hotel with breakfast)\nFly to Lukla and trek to Phakding (2652m, 3 hours) (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Namche Bazaar (3440m, 6 hours) (overnight at hotel with breakfast, lunch, and dinner)\nNamche Bazar and Everest View Hotel (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Tengboche (3860m, 5 hours) (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Dingboche (4410m, 5 hours) (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Chhukung (4700m) 2 hrs (overnight at hotel with breakfast, lunch, and dinner)\nHiking to Chhukung Ri (5540m) (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Lobuche (4910m) via Kongma La Pass (5335m) 8 hours (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Everest Base Camp (5364m) & back to Gorekshep (5181m) 8 hours (overnight at hotel with breakfast, lunch, and dinner)\nHiking to Kalapattar (5545m) – Gorekshep and trek to Dzongla (4830m) 7 hours (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Gokyo (4800m) via Cho La Pass (5368m) – 8 hours\nHiking to Gokyo RI (5483m) and back to Gokyo Lake, 4 hours (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Lunden (4300m) via crossing the Renjo La Pass (5340m) 7 hours (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Thame (3800m) 4 hours (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Namche Bazaar (3440m) 5 hours (overnight at hotel with breakfast, lunch, and dinner)\nTrek to Lukla (2800m) 7 hours (overnight at hotel with breakfast, lunch, and dinner)\nFly to Kathmandu and Farewell Dinner (overnight at hotel with breakfast and dinner)\nDeparture from Kathmandu (breakfast and transportation are provided)",
+    itineraryItems: [
+      {
+        title: "Arrival in Kathmandu (1400 m)",
+        description:
+          "After your arrival in Tribhuwan International Airport, you will find us outside the airport with the banner of Sherpa Summit Treks and Expedition. If you arrive in the evening or at the middle of the night, we take you straightly to the hotel by vehicles, such as car, van, depending on the number of passengers. If you arrive in the day, we will take you to our office, where we will talk about your trip in detail, telling you about do’s and don’ts. If you have a free time in the day, then you can use it to visit the places that are around your hotel, most probably, you will be staying in Thamel, which is a lively town for the tourists. You can also ask any questions related to your trip. If you have made a half-payment to us then you are requested to pay the remaining balance now. As you come to our office, please bring your passport, which has a validity of 6 months, including three copies of passport-sized photos, and a readable copy of your travel insurance paper. This is followed by the signing of the paper of your trip, as well as non-liability disclaimer paper.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Combined sightseeing of Kathmandu and Bhaktapur",
+        description:
+          "After breakfast, you will do the combined sightseeing of Kathmandu and Bhaktapur with a city guide. The former is the city of temple, while the latter is the oldest city of Nepal. These cities have lots of historical monuments, so you will visit these monuments selectively. We have to make a selection because the sightseeing of these cities is of half-day.This much time will be enough to visit Kathmandu Durbar Square, Boudhanath, and Changu Narayan Temple in Kathmandu and Bhaktapur. Not only these, Sherpa Summit Treks and Expedition will also provide you an option of visiting Pashupatinath Temple, Monkey Temple, and others. In addition to these, Sherpa Summit Treks and Expedition gives the top-most prioritazation to your favorite places. Your visit is important to us, and we always cooperate with you.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Fly to Lukla and trek to Phakding (2652m, 3 hours)",
+        description:
+          "From Kathmandu, you fly to Lukla in a small aircraft, called twin otter. Lukla is the gateway to Mt. Everest. There are 18 to 20 flights per day, and the name of the Lukla Airport is Tenzing-Hillary Airport. Only pilots, who have 7 years experience in aviation, are permitted to fly to Lukla. From there, you head off to Phakding through lush forest, hills, and valleys. On the way, there is a beautiful view of Kusum Kangru which is a mountain.\n\nIn Case of Flight Delay to Lukla and Kathmandu\nTenzing-Hillary Airport is located at an altitude of 2860 m. It is a hilly airport. It is also surrounded by the snow-covered mountains, Lukla has mountain weather. Sometimes, this weather changes unfavourably and causes a flight delay. In such a case, the helicopter will be charted upon your request by Sherpa Summit Treks and Expedition. The fare per person will vary from helicopter to helicopter or from company to company. The fare will be roughly between USD 500 to USD 3000. The helicopter has a capacity for 4 to 6 passengers, and it can fly even at the low visibility of 1500 m, while the twin otter flies at the high visibility of 5000 m.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Namche Bazaar (3440m, 6 hours)",
+        description:
+          "From Phakding, you head off to Namche by following the Dudh Koshi River, and the trekking route passes through pine and cedar forest, wherein you come across ethnic Sherpa villages, eventually, you reach Namche, which is a meeting point of the Tibetean and the Nepali traders, who deal in salt, dried meat and textiles, and this village is the largest Sherpa village in Nepal and has lots of shops and restaurants.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Namche Bazar and Everest View Hotel",
+        description:
+          "Today is an acclimatization day, and we will hike to Syangboche Airport (3700 m), probably the highest airport in the world, and then we hike further to Everest View Hotel to see a breathtaking view of mountains, such as Everest, Lhotse, Amadablam, Tawache, and both named and unnamed mountains. While returning, we visit a museum, known as Sherpa Culture Museum, wherein you see dresses and musical instruments of the Sherpa people, including the photos of Mt. Everest.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Tengboche (3860m, 5 hours)",
+        description:
+          "The trekking route that we are going to walk on today, descends into the Dudh Kohsi Valley and then ascends, eventually reaches Tengboche. This is a village, which has a famous monastery of the Everest Region, and it is a 5 hr journey to it, and most of the time, you will be ascending, so you might be tired, but this is a trek, wherein you might forget your tiredness by looking at the world’s most beautiful mountain, called Ama Dablam. In addition to these, you will see Everest, the world’s highest mountain.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Dingboche (4410m, 5 hours)",
+        description:
+          "While trekking today, you come across forest, Imja Khola (river) and Pangbocje, a village, and the view of the mountains keeps on coming to your sight. You see the famous mountains of the Everest Region, such as Ama Dablam and Lhotse, in addition to other peaks. There is a pasture ahead, which is known as the Summer Valley,from where you walk further to reach Dingboche.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Chhukung (4700m) 2 hrs",
+        description:
+          "Most of the trekking route is flat, and it ascends and descends. Its uphill part is steep, but the mountain view that it shows to us is impressive. Later, it takes us to yak pasture, including the area of the local seabuckthorn berry. It looks like a small orange, which is red in color red and rich in source of vitamins, such as C and E.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Hiking to Chhukung Ri (5540m)",
+        description:
+          "After having breakfast, we head off to Chukung Ri, which is a beautiful ridge. This ridge located is at an altitude of 5550 m above the sea level, equivalent to 18204 feet. The Chukung Ridge is placed right above the Chukung Valley on the southern border of the Mt Lhotse. The mountain climb this ridge before climbing a mountain.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Lobuche (4910m) via Kongma La Pass (5335m) 8 hours",
+        description:
+          "The ascending trail that takes us to the Kong Ma La Pass is made of loose scree. Its top has Buddhist prayer flags. Below, there is the Khumbu Glacier and moraine.The descending trail from the pass is difficult, and finally it takes us to Lobuche. We see a great view of Island peak valley, including the jagged ridge of Amphu Lapcha.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Trek to Everest Base Camp (5364m) & back to Gorekshep (5181m) 8 hours",
+        description:
+          "We walk by Gorak Shep Lake. We walk upward, where the air is thin. We come across rocky dunes, moraine and streams before reaching Everest Base Camp. From the camp, we can see a spectacular view of mountains, such as Nuptse, Khumbuste and Pumori. We will also see the Khumbu Glacier and Icefall. Thase are some of the highlights of Everest Base Camp Short Trek. We spend a night at Gorakshep.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Hiking to Kalapattar (5545m) – Gorekshep and trek to Dzongla (4830m) 7 hours",
+        description:
+          "Hiking to Kalapathar means reaching the best viewpoint in the Everest Region and seeing the best view of Mt. Everest. As the sun’s rays strike the snow-capped mountains, including Everest, they become golden in color and look incredible. From there, we descend to Gorekshep and Pheriche. Other mountains that come to our eyes are Lingtren, Khumbutse, and Changtse. You will take a lot of photos from Kalapathar because of the panoramic view of Mt. Everest, and taking this kind of photos is the moment of enjoying. After this, we descend to Dzongla.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Gokyo (4800m) Via Cho La Pass (5368m) – 8 hours",
+        description:
+          "Today we have to start our trek before 4-5 am so we can cross Cho La pass before mid-day and re-assess the hike when the weather turns bad. Today the route maybe little difficult due to high altitude and steeply loose rock. Snow may cause some problem while crossing Cho La pass and rock fall can also be the problem although weather is good. As a result you can see magnificent view from the top of Cho La Pass then we will descend to our destination, Gokyo (4,790 m). We have to cross Khara, Pangka, and Ngozumpa glacier (which is the longest glacier in Nepal). We can see the beautiful view of Kantaga and big Mountain Cho-oyu. There are series of six lakes where third one is the Gokyo Lake. There is a small village near the Gokyo Lake where we will stay 2 nights as we will have sightseeing and hiking trip around Gokyo.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Hiking to Gokyo RI (5483m)and back to Gokyo Lake, 4 hours",
+        description:
+          "We wake up early in the morning to ascend to the Gokyo Ri, a viewpoint, to see a breath-taking view of mountains. It is a 2-hour ascend to the top of the view point. From the top, we see the famous mountains of the Everest Region, including Cho-Oyu, Gyachung Kang, Everest, Lhotse, Makalu, Cholatse and Tawache.The trekking trail offers the view of mountains, such as Kantega and Cho-Oyu and takes us to the valley. The trekking trail widens and heads off to the Ngozumpa Glacier, the largest glacier in Nepal, including moraine.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Trek to Lunden (4300m) via crossing the Renjo La Pass (5340m) 7 hours",
+        description:
+          "After having breakfast, we will head off to Lunden. On the way, we have to cross the Renjo La Pass. It is challenging. From there, we have to descend. The landscape that we are going to reach resembles that of the Tibetean Valley . On the trekking trail, we will meet the Tibetean businessmen as well as see yaks loaded with goods.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Thame (3800m) 4 hours",
+        description:
+          "Today, we follow the descending trekking trail and see beautiful snow-covered mountains. On the way, we will see once again Tibetean businessmen. We will also visit Thame Monastery. It is beautiful and located on the top of the hill. This is the site, where the Mani Rimdu festival is held every year in the monthe of May.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Namche Bazaar (3440m) 5 Hours",
+        description:
+          "After having breakfast, we will follow the trekking trail that is easy. It is flat as well as descending. On the descending trail, we need to take a rest because walking on this trail is difficult than walking on an ascending trail. The trek is scenic for beautiful landscape. Namche, which is your next stop is the largest Sherpa village of the Everest Region.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Lukla (2800m) 7 Hours",
+        description:
+          "The trekking trail descends to the valley and takes you to the suspension bridges over the Dudh Koshi River and is easy to do, and we will be walking most of the time along the Dudh Koshi River. Later this trail joins with Lukla, from where we catch a return flight to Kathmandu, the city of temples. And it is in Lukla, we feel that we have done the world’s best trek in 14 days.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Fly to Kathmandu and Farewell Dinner",
+        description:
+          "We catch an early morning flight to Kathmandu. After reaching Kathmandu, we can take a rest or do some souvenir shopping. If you are interested, then Sherpa Summit Treks and Expedition help you in souvenir shopping. Later in the evening, you will have a farewell dinner in a Nepali restaurant, where you can see Nepali dance.Also, there will be Nepali music and songs. Along with these, there is a lot of tourism activities that you can do in Nepal. Some of these are jungle safari, biking, and mountain flight.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast And Dinner",
+      },
+      {
+        title: "Departure from Kathmandu",
+        description:
+          "Today is the last day of your trip. We make sure that you reach Tribhuwan International Airport on time for departure.We will take you approximately 3 hours before your scheduled flight. We will keep in touch with you through emails. Since Nepal is the cheapest tourist destination in the world for any tourism activities, Sherpa Summit Treks and Expedition is always ready to provide you service.\n\nAccommodation:\nNone\n\nMeals:\nBreakfast",
+      },
+    ],
     whatsIncluded:
       "Airport / Hotel / Airport pick up & drop off service by a private tourist vehicle.\nStandard twin-sharing accommodation in a three-star hotel in Kathmandu (3 nights only) including breakfast.\nGuided city tour in Kathmandu valley by a private tourist vehicle.\nAll standard meals during the trek (Breakfast, lunch and dinner).\nBasic guesthouse accommodation during the trek in mostly twin-share and occasionally dormitory-style rooms (4 nights only).\nLocal Nepali expert guide (English speaking).\nThe required number of local staff and porters to carry your luggage during the trek (One porter for every two guests).\nFood, accommodation, salary, insurance, equipment and medicine for all staff.\nFree duffle bag and sun hat.\nSightseeing/Monument entrance fees in Kathmandu.\nAll our government taxes, VAT, tourist service charges.\nOfficial expenses.\nArrival and departure transfers on both domestic and international flights.\nStandard hotel accommodation in Kathmandu on a twin share bed-and-breakfast basis as per Everest Base Camp trek itinerary.\nOpen and choice full board meals while Everest Base Camp Kalapathar trekking.\nResponsible trekking policy of One trekker : One porter.\nAccommodation at clean and comfortable tea house or lodge.\nWelcome dinner with cultural program as listed in the itinerary.\nAll domestic flights and airport tax as listed in the itinerary.\nPrivate transportation to and from the starting and ending points of the trek as applicable.\nProfessional local trekking group leader well trained in Wilderness First Aid.\nPersonal Sherpa porters to carry all trek personal gear while on Base Camp trekking.\nInsurance of all staff including porters in Base Camp Kalapathar hike.\nWarm clothing and required trekking gear for porters like Gortex jacket / trousers, trekking shoes, woolen hat, woolen gloves, woolen socks, sun glasses etc.\nComplementary Sherpa Summit Treks and Expedition Everest Base Camp trek T-shirts.\nComprehensive per-departure information and trip dossiers.\nTIMS trekking permit and Everest National Park entry fees for Everest Base Camp trekking.",
     whatsNotIncluded:
@@ -115,6 +500,93 @@ export const expeditions = [
       "Sightseeing in the World Heritage Sites in Kathmandu: Bhaktapur Durbar Square, Pashupatinath Temple and Boudhanath Stupa\nExplore different Nepali cultures\nWalking through lush green forests, colorful rhododendrons and refreshing waterfalls\nStunning 360 degree vantage points throughout the trek",
     itinerary:
       "Arrival In Kathmandu (1400 M) (Overnight At Hotel With Breakfast)\nCombined Sightseeing Of Kathmandu And Bhaktapur (Overnight At Hotel With Breakfast)\nDrive to Dharapani (1,900 m) from Kathmandu by Private 4WD – 7/8 hours. Overnight at a Guesthouse.\nTrek to Chame (2,670 m) – 4 hours. Overnight at a Guesthouse.\nChame To Pisang (3300m) 5 Hours (Overnight At Hotel With Breakfast, Lunch, And Dinner)\nPisang To Manang (3570m) 4 Hours (Overnight At Hotel With Breakfast, Lunch, And Dinner)\nManang – Acclimatization Day (Overnight At Hotel With Breakfast, Lunch, And Dinner)\nManang To Yak Kharka (4,110m) 4 Hours (Overnight At Hotel With Breakfast, Lunch, And Dinner)\nYak Kharka To Thorong Phedi (4,600m) 4 Hours (Overnight At Hotel With Breakfast, Lunch, And Dinner)\nThorong Phedi To Muktinath (3800m) Crossing Over Thorong La Pass (5416m) 8 Hours (Overnight At Hotel With Breakfast, Lunch, And Dinner)\nDrive to Tatopani (1,190 m) in Local Shared 4WD Vehicle – 5 hours\nTrek to Ghorepani (2,810 m) – 6 hours\nHike to Poon Hill (3,210 m), Trek to Tikhedunga (1,570 m) – 5 hours and Same Day Drive to Pokhara via Nayapul (1,010 m) – 2.5 hours (Drive for 1.5 hours on dirt road and 1 hour on concrete paved road)\nGuided Sightseeing in Pokhara\nDrive Back to Kathmandu (1,400 m) in a Tourist Bus – 7 to 8 hours\nTransfer to the International Airport for Your Final Departure",
+    itineraryItems: [
+      {
+        title: "Arrival In Kathmandu (1400 M)",
+        description:
+          "After your arrival in Tribhuwan International Airport, you will find us outside the airport with the banner of Mountain Ascend Treks. If you arrive in the evening or at the middle of the night, we take you straightly to the hotel by vehicles, such as car, van, depending on the number of passengers. Otherwise, we will take you to our office, where we will talk about your trip in detail, telling you about do’s and don’ts. If you have a free time in the day, then you can use it to visit the places that are around your hotel. Most probably, you will be staying in Thamel, which is a lively town for the tourists. You can also ask any questions related to your trip. If you have made a half-payment to us then you are requested to pay the remaining balance now. As you come to our office, please bring your passport, which has a validity of 6 months, including three copies of passport-sized photos, and a readable copy of your travel insurance paper. This is followed by the signing of the paper of your trip, as well as non-liability disclaimer paper.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Combined Sightseeing Of Kathmandu And Bhaktapur",
+        description:
+          "After breakfast, you will do the combined sightseeing of Kathmandu and Bhaktapur with a city guide. The former is the city of temple, while the latter is the oldest city of Nepal. These cities have lots of historical monuments, so you will visit these monuments selectively. We have to make a selection because the sightseeing of these cities is of half-day.This much time will be enough to visit Kathmandu Durbar Square, Boudhanath, and Changu Narayan Temple in Kathmandu and Bhaktapur. Not only these, Mountain Ascend Treks will also provide you an option of visiting Pashupatinath Temple, Monkey Temple, and others. In addition to these, Mountain Ascend Treks gives the top-most prioritazation to your favorite places. Your visit is important to us, and we always cooperate with you.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title:
+          "Drive to Dharapani (1,900 m) from Kathmandu by Private 4WD – 7/8 hours",
+        description:
+          "Today we will take a Private car from Kathmandu to Besisahar and from there we will take a jeep to Dharapani . We will witness beautiful landscapes, rivers and waterfalls on the way.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Chame (2,670 m) – 4 hours",
+        description:
+          "After having breakfast, you follow an ascending trail. Here, you might trek along with mule. This animal is used to carry goods by the locals. This trail goes into the forest of ﬁr and along the river. Ahead, there is a forest of Oak and Maple. The part of the today’s trek is scenic and different, for it offers the spectacular, breath-taking, and awesome view of mountains till you reach Chame, which is your next stop.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Chame To Pisang (3300m) 5 Hours",
+        description:
+          "The trekking trail is narrow and takes you to the Marshyangdi Valley, where the upcoming trekking trail is very steep. After you have ﬁnished walking on it, you see the majestic vista of mountains, such as Pisang Peak and Annapurna II. Gradaually, the valley becomes bigger, and the trekking trail leads us to the Paungda Danda, a hill, from where the on-going trail goes to Pisang, a village.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Pisang To Manang (3570m) 4 Hours",
+        description:
+          "Today’s trek is more scenic than yesterday, for it offers the breath-taking view of mountains, including the famous ones like Pisang Peak and Annapurna. The noticeable feature of the trek is it has from the forest of Oak, Maple, and Fir to the dry land, having the features of desert and cold climate. This is your next stop for tonight.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Manang – Acclimatization Day",
+        description:
+          "Today is an acclimatization day, which means, we have to prepare ourselves for tomorrow’s higher altitudes. Your trekking guide will provide information on this. Acclimatization also means a resting day. It means a time to give a rest to your legs and heart that have walked uphill and that has beated. Further, acclimatization also means hiking to the nearby areas.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Manang To Yak Kharka (4,110m) 4 Hours",
+        description:
+          "From Manang, we follow an ascending trail that goes to the valley, that goes higher, that heads off to Juniper forest, that heads off to a river and that takes you to pasture. The trail also takes you to meadow, where you see the horses and yaks grazing. There is a wooden bridge across the river from where the trail ascends and connects to Yak Kharka, your next stop.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Yak Kharka To Thorong Phedi (4,600m) 4 Hours",
+        description:
+          "After having breakfast, we follow an uphill trekking trail all the way to Thorong Phedi, crossing suspension bridge and reaching Ledar village. We see tall cliffs on the way and then reach Thorong Phedi. We also see the spectacular view of mountains, such as Gundang, Syagang, Thorung Peak and Khatungkan. Tomorrow, we will climb the Thorong La Pass from where we see the breath-taking view of the Annapurna Massifs.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Thorong Phedi To Muktinath (3800m) Crossing Over Thorong La Pass (5416m) 8 Hours",
+        description:
+          "Whenever, we have to cross the pass, we have to start early in the morning. Probably your guide will start at 3 a.m. The trekking trail is easy and safe, but we have to walk with an experienced trekking guide because you might get lost if you walk alone. When you reach the top of the Thorong la Pass, we will be rewarded with the view of the famous mountains of the Annapurna Region, and then we head off to Muktinath.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Drive to Tatopani (1,190 m) in Local Shared 4WD Vehicle – 5 hours",
+        description:
+          "In the Jomsom to Tatopani segment, the trekking trail and the road are same and it is busier with vehicles than any other part of the Annapurna Circuit. To make your experience better, we have kept a drive from Jomsom to Tatopani which will take about 5 hours. We will use a local shared 4WD vehicle to descend through the Kali Gandaki River Valley. The vehicle will be shared among our own group or with travelers of other companies. But, if our group size is bigger, for example 4 and above clients, we will arrange private transfer. On the way, we will encounter the world’s deepest gorge, Kopchepani. Tatopani is famous for its hot springs. This is the best place to relax our body after a long trek. We will spend another day relaxing at this spot.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Ghorepani (2,810 m) – 6 hours",
+        description:
+          "Today is another big day. It will take about 7 hours to walk from Tatopani to Ghorepani. We climb about 1,620 meters up. From Ghorepani, we will be able to see Annapurna South, Himchuli and Tukuche Himal. We will pass a couple of Magar and Gurung villages on the trail.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Hike to Poon Hill (3,210 m), Trek to Tikhedunga (1,570 m) – 5 hours and Same Day Drive to Pokhara via Nayapul (1,010 m) – 2.5 hours",
+        description:
+          "Very early in the morning, we start an hour hiking to Poon Hill at an elevation of 3,210 m – a brilliant spectacle. This vantage point provides unobstructed views of the early morning sunrise over the high Himalayas, weather permitting. There we spend about an hour. We return to Ghorepani where we take a hot breakfast at the hotel. We trek down towards Tikhedunga, walking down along the ridges and through rhododendron forests before reaching Tikhedhunga.\n\nUpon reaching Tikhedhunga, we will take a short break and then take a drive to Nayapul in a local shared 4WD or bus. The drive will take about 1.5 hours on a dirt road. At Nayapul, we will stop for a tea break and change our vehicle. From here onward until Pokhara, the drive, which takes about 1 hour on concrete paved road, will be in a private tourist vehicle. Your guide will travel together with you and make all the arrangements for the transfers.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast And Lunch",
+      },
+      {
+        title: "Guided Sightseeing in Pokhara",
+        description:
+          "After breakfast, a full day sightseeing tour of Pokhara city begins. There will be a professional city guide and a private tourist vehicle at your disposal. You will visit the following sites:\n\nPhewa Lake:\nSituated at an altitude of 800m above sea level, it is the second largest lake in Nepal. The lake sits like a sparkling jewel with the majestic Mt. Machhapuchhare(Fishtail Peak), Annapurna and the Peace Pagoda reflected on its calm waters. Thick forest lies on the adjoining southern slopes of the lake.\n\nBarahi Temple:\nBuilt almost in the middle of Phewa Lake is the island temple of Barahi. The two-storied pagoda temple is dedicated to the female force Shakti.\n\nBindhabasini Temple:\nThe temple lies in the center of the religious old bazaar. It is dedicated to Goddess Bhagwati, another manifestation of Shakti. The park grounds offer a fine picnic and relaxing area.\n\nDavis Fall:\nLocally known as Patale Chhango and located in the southern flank of the Pokhara valley, it is where the stream flowing from Fewa Lake collapses and surges down the rock into a deep gorge, leaping through several potholes. This is hugely popular with tourists and locals alike.\n\nGupteshwor Cave:\nThe revered Gupteshwor Cave is situated 2 km from the Pokhara airport. The entrance is right across from Davis fall and the cave is almost 3 km long. It has some big hall-sized rooms and some passages where you have to crawl on all four. This cave holds special value to Hindus since a phallic symbol of Lord Shiva is preserved here in the condition it was discovered.\n\nSeti River Gorges:\nCarved by the Seti Gandaki River, it is one of the natural wonders of Pokhara. K.I. Singh bridge at Bagar, Mahendrapool and Prithivi Highway Bridge near bus park provide a perfect view of the river’s dreadful rush and the deep gorge made by the turbulent flow of white water.\n\nTibetan Refugee Camp:\nThe Tibetan camp Tashi Ling, which is behind Gupteshwor Cave, is renowned for the production and trade of woolen carpets and other handicrafts. The original Tibetan settlers in this region migrated to Nepal in the ‘50s.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title:
+          "Drive Back to Kathmandu (1,400 m) in a Tourist Bus – 7 to 8 hours",
+        description:
+          "We will be driving back to Kathmandu in the morning.\nIf you are interested in extending the trip, there are many options such as Chitwan jungle safari, river rafting adventure, Kathmandu shopping tour, mountain biking and other activities.\nIn the evening, we host a farewell dinner in a fine restaurant. (Your guide(s) and an office staff will accompany you).\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast And Farewell Dinner",
+      },
+      {
+        title: "Transfer to the International Airport for Your Final Departure",
+        description:
+          "The trip concludes here. Our airport representative will drop you at the international airport in Kathmandu for your flight departure from Nepal.\n\nAccommodation:\nNone\n\nMeals:\nBreakfast",
+      },
+    ],
     whatsIncluded:
       "Airport / Hotel / Airport pick up & drop off service by a private tourist vehicle.\nStandard twin-sharing accommodation in a three-star hotel in Kathmandu (3 nights only) and Pokhara (2 nights only) including breakfast.\nGuided city tour in Kathmandu valley by a private tourist vehicle.\nAll standard meals during the trek (Breakfast, lunch and dinner).\nBasic guesthouse accommodation during the trek in mostly twin-share and occasionally dormitory-style rooms (4 nights only).\nLocal Nepali expert guide (English speaking).\nThe required number of local staff and porters to carry your luggage during the trek (One porter for every two guests).\nFood, accommodation, salary, insurance, equipment and medicine for all staff.\nAnnapurna Conservation Park permits and TIMS permit for trekking.\nTourist bus between Kathmandu and Pokhara and private tourist vehicle between Pokhara and Nayapul.\nFree duffle bag and sun hat provided.\nSightseeing/Monument entrance fees in Kathmandu.\nAll our government taxes, VAT, tourist service charges.\nOfficial expenses.\nStandard hotel accommodation in Kathmandu / Pokhara on a twin share bed-and-breakfast basis as per the itinerary.\nOpen and choice full board meals while on Annapurna Sanctuary trekking.\nAccommodation in comfortable lodge or tea house.\nWelcome dinner with ethno cultural program as listed in the itinerary.\nPrivate transportation to and from the starting and ending points of the trek as applicable.\nFree use of quality trekking gear – sleeping bag, fleece liner, down jacket, duffle bag etc on trip.\nProfessional local trekking group leader well trained in Wilderness First Aid along with comprehensive First Aid Kit.\nTrekking guides and other support staff for the Annapurna Sanctuary trek.\nPorters to carry all personal gear and group equipment.\nAnnapurna Sanctuary trek map.\nInsurance of all staff including porters.\nWarm clothing and other required trekking gear for porters.\nSherpa Summit Treks and Expedition T-shirts.\nComprehensive pre-departure information and trip dossiers.\nTrekking permit and Annapurna Conservation entry fees required for Annapurna Sanctuary trekking.",
     whatsNotIncluded:
@@ -135,6 +607,99 @@ export const expeditions = [
       "Sringi Himal\nHimlung\nCheo Peak\nGyagi Kung, Kang Koru and Annapurna II",
     itinerary:
       "Arrival in Kathmandu (1400 m) (overnight at hotel with breakfast)\nCombined sightseeing of Kathmandu and Bhaktapur (overnight at hotel with breakfast)\nDrive to Arughat by 4wd Jeep (640m) – 8 hrs\nTrek to Soti Khola (775 m) – 6 hrs\nTrek to Machha Khola (900 m) – 6 hrs\nTrek to Jagat (1,340 m) – 6 hrs\nTrek to Philim (1500 m) – 6 hrs\nTrek to Deng (2095m) Duration: 5 hrs\nDeng to Namrung (2900m) Duration: 5 hrs\nTrek to Samagompa (3,500 m) – 6 hrs\nAcclimatization Day in Samagaon\nSamagaon to Samdo (3690m) Duration: 3 hrs\nSamdo to Dharmashala (4450m/14596ft) Duration: 4 hrs\nCross the Larkya La (5,215 m) and trek to Bhimphedi (3,590m) : 8 hrs\nBhimphedi to Tilje (2300m) Duration: 5 hrs\nTilje to Chamje (1410m/4625ft) Duration 7 hrs\nChamje to Kathmandu (1337m) 8 hrs and farewell dinner\nDeparture from Kathmandu (breakfast is included and transportation is provided)",
+    itineraryItems: [
+      {
+        title: "Arrival in Kathmandu (1400 m)",
+        description:
+          "After your arrival in Tribhuwan International Airport, you will find us outside the airport with the banner of Sherpa Summit Treks and Expedition. If you arrive in the evening or at the middle of the night, we take you straightly to the hotel by vehicles, such as car, van, depending on the number of passengers. If you arrive in the day, we will take you to our office, where we will talk about your trip in detail, telling you about do’s and don’ts. If you have a free time in the day, then you can use it to visit the places that are around your hotel, most probably, you will be staying in Thamel, which is a lively tourist city. You can also ask any questions related to your trip. If you have made a half-payment to us then you are requested to pay the remaining balance now. As you come to our office, please bring your passport, which has a validity of 6 months, including three copies of passport-sized photos, and a readable copy of your travel insurance paper. This is followed by the signing of the paper of your trip, as well as non-liability disclaimer paper.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Combined sightseeing of Kathmandu and Bhaktapur",
+        description:
+          "After breakfast, you will do the combined sightseeing of Kathmandu and Bhaktapur with a city guide. The former is the city of temple, while the latter is the oldest city of Nepal. These cities have lots of historical monuments, so you will visit these monuments selectively. We have to make a selection because the sightseeing of these cities is of half-day.This much time will be enough to visit Kathmandu Durbar Square, Boudhanath, and Changu Narayan Temple in Kathmandu and Bhaktapur. Not only these, Sherpa Summit Treks and Expedition will also provide you an option of visiting Pashupatinath Temple, Monkey Temple, and others. In addition to these, Sherpa Summit Treks and Expedition gives the top-most prioritazation to your favorite places. Your visit is important to us, and we always cooperate with you.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Drive to Arughat by 4wd Jeep (640m) – 8 hrs",
+        description:
+          "It is a long dirve, so we will be woke up in the morning, and then we drive to Arughat, but before that, we reach several villages, including Dhading, which is quite developed, one of the main reasons for development is it is situated on the Pirthivi Highway, another is, it is a district headquarter. Before reaching Arughat, most of the section of road is rough; the vehicle will bump and the road becomes dusty. You can experience this when the vehicle runs on the road as it heads to Arughat, the starting point of Manaslu Circuit Trekking.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Soti Khola (775 m) – 6 hrs",
+        description:
+          "Today’s trekking trail goes upward and downward, makes you easier to walk, and passes through forest, and moves along with the Budhi Gandaki River, descends to a wide, sandy riverbed and becomes a winding path. Some of the prominent villages we come across are Morder and Simre. The river that we come across is Arkhat from where we head off to Soti Khola.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Machha Khola (900 m) – 6 hrs",
+        description:
+          "After having breakfast, we follow the trekking trail that descends that ascends on a ridge before reaching Almara. From there, the trekking trail passes through forest and reaches Riden Gaon, a village, which lies in the valley and heads off to the Budhi Gandaki River, one of the famous rivers of Nepal.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Jagat (1,340 m) – 6 hrs",
+        description:
+          "We follow the trekking trail that heads off to the Macha River, Khrolabesi and Tatopani, which means a hot spring in Nepali. Furthermore, it goes to another river called Dovan Khola, as well as a lush forest. This time the trekking trail ascends on a hill and takes us to a new kind of place, in other words, a white sandy river bank from where we head off to our next stop.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Philim (1500 m) – 6 hrs",
+        description:
+          "Today’s trek will also go uphill and downhill and becomes easy for you and takes us to Sirdabas, from where, we get the breath-taking view of Sringi Himal, and from where, we descend to the river, from where, we cross a long suspension bridge, and from where, we climb steep hill to reach Philim, which is a small village, located on hill.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Deng (2095m) Duration: 5 hrs",
+        description:
+          "The trekking trail is rewarding because on the way, we will see spectacular waterfalls. Therein, we reach a valley, we will come across a village called Eklebhatti and cross the river by a suspension bridge. Euwa is another village that we will come across, and our next stop also lies in this valley. Deng is a small village.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Deng to Namrung (2900m) Duration: 5 hrs",
+        description:
+          "The trekking trail crosses the river, passes through small villages, and beautiful valley and is steep in nature before crossing the river, as well as scenic. These villages are also beautiful, and the trekking trail that connects these villages have mani-stone-walls on both sides, reminding of the Tibetean culture.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Trek to Samagompa (3,500 m) – 6 hrs",
+        description:
+          "Today’s highlight is Peak 29, whose view will impress us, and other highlights are Pungen Glacier and a breath-taking view of Manaslu Mountain. Lateral moraine is another highlight, and it flows from the pungen Glacier. We enjoy its beauty while trekking to Samagompa, which is a beautiful village, where out guesthouse is wating for us.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Acclimatization Day in Samagaon",
+        description:
+          "Samagaon is the oldest village in the Manaslu Region.Today is an acclimatization day, in which, we walk to Manaslu Base Camp. this walk is of 7 hours. We can also do half-day walk, that is, we can either walk to the glacier across the valley or Birendra Ta. We have to ascend a hill that lies on the bank of the Budhi Gandaki River.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Samagaon to Samdo (3690m) Duration: 3 hrs",
+        description:
+          "We cross pasture areas and ascend to the valley and see the breath-taking view of Manaslu, as we head off to Samdo, a Tibetan village. This is a remote village that lies close to the Tibetan border. In the afternoon we will explore the village and its surrounding hills. Stay overnight in a guesthouse.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Samdo to Dharmashala (4450m/14596ft) Duration: 4 hrs",
+        description:
+          "After having breakfast, we walk uphill and cross a lot of small streams and reach a village bazaar called Larkya Bazaar. Larkya village is a village that prospered from trade with Tibet a few years ago, and from this village, we gradually climb to reach our guesthouse, located at a higher elevation.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title:
+          "Cross the Larkya La (5,215 m) and trek to Bhimphedi (3,590m) : 8 hrs",
+        description:
+          "We trek to Bhimphedi by crossing the Larkya La Pass and from the top of this pass, we can see a panoramic view of mountains, such as Himlung Himal (7126meter), Cheo Himal (6820meters), Gyagi Kung, Kang Koru (6981meters) and Annapurna II (7937meters). The top of this pass is always covered with snow.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Bhimphedi to Tilje (2300m) Duration: 5 hrs",
+        description:
+          "The trekking trail passes through paddy fields and heads towards the Karcha La Pass and descends through fig trees and rhododendron forests. Karcha La Pass is smaller than the Larkya Pass. The trekking route is easy most of the time, therefore, you and your guide climb gently, seeing the beauty of mountains.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Tilje to Chamje (1410m/4625ft) Duration 7 hrs",
+        description:
+          "The trekking trail takes you to a small ridge, a beautiful village, Dudh Khola, a river, a stone-mani-wall, a police checkpoint, and Dharapani. We reach another stone-mani-walls before reaching Tal, a village situated at the foot of a large waterfall. From there, we follow a downhill trekking route to reach Chamje village.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch, And Dinner",
+      },
+      {
+        title: "Chamje to Kathmandu (1337m) 8 hrs and farewell dinner",
+        description:
+          "From Chamje, we drive to Kathmandu in a private car. In the evening, you will have a farewell dinner in a Nepali restaurant, where you can see a Nepali dance. There will be Nepali music as well as Nepali songs. There is a lot of tourism activities that you can do in Nepal. Some of these are jungle safari, biking, hiking, and mountain flight. You can extend your trip if you have a time.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast And Farewell Dinner",
+      },
+      {
+        title: "Departure from Kathmandu",
+        description:
+          "Today is the last day of your trip. We make sure that you reach the Tribhuwan International Airport on time for departure.We will take you approximately 3 hours before your scheduled flight. We will keep in touch with you through emails. Since Nepal is the cheapest tourist destination in the world for any tourism activities, Sherpa Summit Treks and Expedition is always happy to provide you service.\n\nAccommodation:\nNone\n\nMeals:\nBreakfast",
+      },
+    ],
     whatsIncluded:
       "Airport pick up and drop off\nAccommodation (You will have your own hotel room, but you need to share a room with other members during the trek; however, Mountain Ascend Treks will arrange private rooms on the trek upon request)\nBreakfast\nSherpa Summit Treks and Expedition Duffel Bag and T – Shirt\nBreakfast, lunch, and dinner throughout the trek\nAll ground transportation within Kathmandu and from Kathmandu and other places\nLicensed city guide\nLicensed trekking guide\nPorter\nAll the entrance fee to historical monuments\nFirst-aid box\nFarewell Dinner\nTrip Completion Certificate\nAll local taxes",
     whatsNotIncluded:
@@ -156,6 +721,81 @@ export const expeditions = [
       "Sightseeing in the World Heritage Sites in Kathmandu: Bhaktapur Durbar Square, Pashupatinath Temple and Boudhanath Stupa\nMagnificent sunrise views of the mighty Annapurna peaks from Poon Hill and Annapurna Base Camp\nExplore different Nepali cultures\nWalking through lush green forests, colorful rhododendrons and refreshing waterfalls\nStunning 360 degree vantage points throughout the trek",
     itinerary:
       "Arrive in Kathmandu (1,400 m)\nGuided Sightseeing in the Kathmandu Valley\nDrive to Pokhara (900 m) in a Tourist Bus – 7 hours\nDrive to Nayapul (1,010 m) and Trek to Tikhedunga (1,570 m) – 4 hours\nTrek to Ghorepani (2,840 m) – 5 hours\nHike up to Poon Hill (3,210 m) and Trek to Tadapani (2,610 m) – 7 hours\nTrek to Chomrong (2,140 m) – 5 hours\nTrek to Himalaya Hotel (2,950 m) – 6 hours\nTrek to Annapurna Base Camp (4,130 m) – 7 hours\nTrek to Bamboo (2,345 m) – 6 hours\nTrek to Jhinu (1,780 m) – 5 hours\nTrek to Nayapul (1,010 m), Drive to Pokhara – 5.5 hours and Guided Tour of Barahi Temple and Fewa Lake\nDrive Back to Kathmandu (1,400 m) in a Tourist Bus – 7 hours\nTransfer to the International Airport for Your Final Departure",
+    itineraryItems: [
+      {
+        title: "Arrive in Kathmandu (1,400 m)",
+        description:
+          "Our airport representative will be receiving you at Tribhuvan International Airport, Kathmandu and s/he will be displaying an Sherpa Summit Treks and Expedition signboard outside the airport terminal. You will be then transferred to your respective hotel in our private tourist vehicle.\n\nNote: If you happen to arrive after 4 pm you would be briefed about the trip by our guide. This will be the pre-trip meeting for you so please make sure that you ask all the questions. But if you arrive earlier than 4 pm, your pre-trip meeting would be on that very day at our office. During the meeting, we will introduce your trek leader/guide. For the meeting, please make sure you bring the passport, three copies of passport-size photos and a readable copy of your travel insurance policy. During this meeting, please clear the due balance, if any, and sign the legally binding trip form as well as the non-liability disclaimer.\n\nAccommodation:\nHotel\n\nMeals:\nNone",
+      },
+      {
+        title: "Guided Sightseeing in the Kathmandu Valley",
+        description:
+          "After a hearty breakfast, at 8.30 am your sightseeing trip will start. You will have a private vehicle and a professional tour guide at your disposal. Today we will visit some heritages listed.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title: "Drive to Pokhara (900 m) in a Tourist Bus – 7 hours",
+        description:
+          "Our trekking staff will pick you up from the hotel at 6:30 am and escort you to the tourist bus station. The bus to Pokhara leaves at around 7:30 am. A beautiful valley set on the banks of the Phewa Lake, Pokhara is also known for its panoramic views of Annapurna and Machapuchare (shape of fish tail) in the north, Dhaulagiri in the west and Lamjung Himal and Manaslu in the east. It is smaller and much less hectic than Kathmandu, hence providing the perfect starting point for our trek.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast",
+      },
+      {
+        title:
+          "Drive to Nayapul (1,010 m) and Trek to Tikhedunga (1,570 m) – 4 hours",
+        description:
+          "We begin our trek at Nayapul after an hours drive on a private vehicle from Pokhara. After a short 15-minute walk along the banks of the Modi Khola, we reach Birethanti (1,015 m), a large village with many shops and teahouses. From there, the trail continues through the village and follows the north bank of the Bhurungdi Khola. The trail climbs steadily up the side of the valley to Hille at 1,495 m. After a short climb, we reach Tikhedhunga at 1,570 m. Today’s walk is relatively short and easy, a prelude to the trekking experience in the Annapurna region.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title: "Trek to Ghorepani (2,840 m) – 5 hours",
+        description:
+          "We move on towards the steep climb to Ulleri, a large Magar village at an altitude of 2,070 m. The trail ascends more gently from this point, through fine forests of oak and rhododendrons, towards Banthanti at 2,250 m. Then we trek towards Nangethanti at 2,460 m. After an hour walk we arrive at Ghorepani (2,840 m).\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title:
+          "Hike up to Poon Hill (3,210 m) and Trek to Tadapani (2,610 m) – 7 hours",
+        description:
+          "Today, very early in the morning, we start an hour hike to Poon Hill at an elevation of 3,210 m, a brilliant mountain range spectacle; this vantage point provides an unobstructed view of the sunrise over the high Himalayas. There we spend about 1 hour and returning to Ghorepani, we take a hot breakfast. Then we make a climb along ridges, and through pine and rhododendron forests, towards Deurali (2,960 m). After that, we descend to the Banthanti, then turn off to Tadapani.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title: "Trek to Chomrong (2,140 m) – 5 hours",
+        description:
+          "The day starts with a steep downhill through rhododendron forests. Leaving Tadapani, we descend through the forests and then the trail eases as we reach Gurjung which is the village of Gurung people. From here it is an easy walk to Chomrong at an elevation of 2,140 m.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title: "Trek to Himalaya Hotel (2,950 m) – 6 hours",
+        description:
+          "Today the trail drops down to the Chomrong Khola and again we continue climbing to Khuldighar at 2,380 m where there used to be an ACAP (Annapurna Conservation Area) check post. There is a clearing in the forest a little further on, from which, the route travels very steeply down a rock bank, then levels out, running through thickets of bamboo at the bottom of the gorge, keeping always on the west side of the river. We walk through bamboo and rhododendron forests to the Himalayan Hotel.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title: "Trek to Annapurna Base Camp (4,130 m) – 7 hours",
+        description:
+          "Today the trail climbs on past the Hinko Cave, Deurali and then Machapuchare Base Camp, which isn’t really a base camp since climbing Mt Machapuchare is not permitted. Since it is totally surrounded by mountains, this area is known as the Annapurna Sanctuary. Two hours trek from Machapuchare Base Camp takes us to the Annapurna Base Camp (ABC) at elevation of 4,130 m. There, we will view unobstructed views of mountain scenery, which is very spectacular.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title: "Trek to Bamboo (2345 m) – 6 hours",
+        description:
+          "We follow the same trail down today. The trail drops by 1,700 m to the bank of Modi Khola to Bamboo at 2,345 m where there are a few teahouse/lodges available to stay at.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title: "Trek to Jhinu (1,780 m) – 5 hours",
+        description:
+          "We follow the same trail until Chomrong. Once we have passed Khuldighar, there is an experimental sheep farm. The trail continues through rhododendron and bamboo fields. From Chomrong, the trail descends very steeply to the Jhinu, where we can bath in natural hot springs.\n\nAccommodation:\nGuesthouse\n\nMeals:\nBreakfast, Lunch And Dinner",
+      },
+      {
+        title:
+          "Trek to Nayapul (1,010 m), Drive to Pokhara – 5.5 hours and Guided Tour of Barahi Temple and Fewa Lake",
+        description:
+          "From Jhinu we walk at the right side of Modi Khola for 4.5 hrs to Birethanti which can be considered one of the best and the most relaxing walks of the entire trek. We reach Nayapul. Then an hour drive will take us back to Pokhara.\n\nAfter we check into the hotel, we will then walk to the Fewa Lake for our boating trip to Barahi Temple.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast And Lunch",
+      },
+      {
+        title: "Drive Back to Kathmandu (1,400 m) in a Tourist Bus – 7 hours",
+        description:
+          "We will be driving back to Kathmandu in the morning.\nIf you are interested in extending the trip, there are many options such as Chitwan jungle safari, river rafting adventure, Kathmandu shopping tour, mountain biking and other activities.\nIn the evening we will have a farewell dinner in a traditional Nepalese restaurant with cultural performances.\n\nAccommodation:\nHotel\n\nMeals:\nBreakfast And Farewell Dinner",
+      },
+      {
+        title: "Transfer to the International Airport for Your Final Departure",
+        description:
+          "The trip concludes today. Our airport representative will drop you at the international airport in Kathmandu for your flight departure from Nepal.\n\nAccommodation:\nNone\n\nMeals:\nBreakfast",
+      },
+    ],
     whatsIncluded:
       "Airport / Hotel / Airport pick up & drop off service by a private tourist vehicle.\nStandard twin-sharing accommodation in a three-star hotel in Kathmandu (3 nights only) and Pokhara (2 nights only) including breakfast.\nGuided city tour in Kathmandu valley by a private tourist vehicle.\nAll standard meals during the trek (Breakfast, lunch and dinner).\nBasic guesthouse accommodation during the trek in mostly twin-share and occasionally dormitory-style rooms (4 nights only).\nLocal Nepali expert guide (English speaking).\nThe required number of local staff and porters to carry your luggage during the trek (One porter for every two guests).\nFood, accommodation, salary, insurance, equipment and medicine for all staff.\nAnnapurna Conservation Park permits and TIMS permit for trekking.\nTourist bus between Kathmandu and Pokhara and private tourist vehicle between Pokhara and Nayapul.\nFree duffle bag and sun hat provided by Santosh.\nSightseeing/Monument entrance fees in Kathmandu.\nAll our government taxes, VAT, tourist service charges.\nOfficial expenses.\nStandard hotel accommodation in Kathmandu / Pokhara on a twin share bed-and-breakfast basis as per the itinerary.\nOpen and choice full board meals while on Annapurna Sanctuary trekking.\nAccommodation in comfortable lodge or tea house.\nWelcome dinner with ethno cultural program as listed in the itinerary.\nPrivate transportation to and from the starting and ending points of the trek as applicable.\nFree use of quality trekking gear – sleeping bag, fleece liner, down jacket, duffle bag etc on trip.\nProfessional local trekking group leader well trained in Wilderness First Aid along with comprehensive First Aid Kit.\nTrekking guides and other support staff for the Annapurna Sanctuary trek.\nPorters to carry all personal gear and group equipment.\nAnnapurna Sanctuary trek map.\nInsurance of all staff including porters.\nWarm clothing and other required trekking gear for porters.\nComprehensive pre-departure information and trip dossiers.\nTrekking permit and Annapurna Conservation entry fees required for Annapurna Sanctuary trekking.",
     whatsNotIncluded:
