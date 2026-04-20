@@ -1378,8 +1378,7 @@ export const aboutPageContent = {
   },
   story: {
     title: "Our Story",
-    image:
-      "/photos/about-1.jpg",
+    image: "/photos/about-1.jpg",
     imageAlt: "Our team in the Himalayas",
     paragraphs: [
       "We are a team of passionate adventure lovers driven by a deep connection to mountains, exploration, and travel. Our goal is to bring together like-minded travelers and create unforgettable journeys to some of the world’s most breathtaking destinations.",
@@ -1390,8 +1389,7 @@ export const aboutPageContent = {
   },
   vision: {
     title: "Our Vision",
-    image:
-      "/photos/about-2.jpg",
+    image: "/photos/about-2.jpg",
     imageAlt: "Our vision for the Himalayas",
     paragraphs: [
       "We envision a world where mountain adventures are accessible to travelers from all backgrounds and budgets, creating transformative experiences that foster deep connections with nature, cultures, and the spirit of exploration.",
@@ -1401,8 +1399,7 @@ export const aboutPageContent = {
   },
   mission: {
     title: "Our Mission | Trek with Purpose",
-    image:
-      "/photos/about-3.jpg",
+    image: "/photos/about-3.jpg",
     imageAlt: "Our mission in action",
     paragraphs: [
       "At Limitless Adventures, we believe adventure is more than reaching mountain peaks — it’s about creating positive change.",
@@ -1439,8 +1436,7 @@ export const aboutPageContent = {
   },
   whyChooseUs: {
     title: "Why Choose Us",
-    image:
-      "/photos/about-4.jpg",
+    image: "/photos/about-4.jpg",
     imageAlt: "Expedition truck in the mountains",
     points: [
       {

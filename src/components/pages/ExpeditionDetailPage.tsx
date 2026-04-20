@@ -9,6 +9,7 @@ import {
   ArrowLeft,
   Calendar,
   CheckCircle2,
+  ChevronDown,
   MapPin,
   TrendingUp,
   XCircle,
@@ -22,6 +23,9 @@ export default function ExpeditionDetailPage() {
   const [expedition, setExpedition] = useState<Expeditions | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [expandedItineraryIndex, setExpandedItineraryIndex] = useState<
+    number | null
+  >(null);
 
   useEffect(() => {
     if (!id) return;
@@ -35,6 +39,24 @@ export default function ExpeditionDetailPage() {
     if (!text) return [];
     return text.split("\n").filter((item) => item.trim());
   };
+
+  const itineraryItems = useMemo(() => {
+    if (!expedition) return [];
+
+    if (expedition.itineraryItems?.length) {
+      return expedition.itineraryItems
+        .filter((item) => item?.title?.trim())
+        .map((item) => ({
+          title: item.title.trim(),
+          description: item.description?.trim() || "",
+        }));
+    }
+
+    return parseListItems(expedition.itinerary).map((item) => ({
+      title: item,
+      description: "",
+    }));
+  }, [expedition]);
 
   const normalizeImageUrl = (image?: string): string | null => {
     if (!image?.trim()) return null;
@@ -72,6 +94,10 @@ export default function ExpeditionDetailPage() {
   useEffect(() => {
     setActiveImageIndex(0);
   }, [heroImages]);
+
+  useEffect(() => {
+    setExpandedItineraryIndex(null);
+  }, [expedition?._id]);
 
   useEffect(() => {
     if (heroImages.length <= 1) return;
@@ -221,14 +247,17 @@ export default function ExpeditionDetailPage() {
                     </div>
                   )}
 
-                  {expedition.itinerary && (
+                  {itineraryItems.length > 0 && (
                     <div>
                       <h2 className="font-heading text-3xl text-foreground mb-6">
                         {expeditionDetailPageContent.itineraryTitle}
                       </h2>
                       <div className="space-y-6">
-                        {parseListItems(expedition.itinerary).map(
-                          (day, index) => (
+                        {itineraryItems.map((item, index) => {
+                          const hasDescription = Boolean(item.description);
+                          const isExpanded = expandedItineraryIndex === index;
+
+                          return (
                             <div
                               key={index}
                               className="border-l-2 border-accent-blue pl-8 py-2"
@@ -237,12 +266,53 @@ export default function ExpeditionDetailPage() {
                                 {expeditionDetailPageContent.dayLabelPrefix}{" "}
                                 {index + 1}
                               </h3>
-                              <p className="font-paragraph text-base text-secondary leading-relaxed">
-                                {day}
-                              </p>
+                              {hasDescription ? (
+                                <div className="rounded-2xl border border-foreground/10 bg-background/80 transition-colors">
+                                  <button
+                                    type="button"
+                                    className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
+                                    aria-expanded={isExpanded}
+                                    onClick={() =>
+                                      setExpandedItineraryIndex((current) =>
+                                        current === index ? null : index,
+                                      )
+                                    }
+                                  >
+                                    <span className="font-paragraph text-base text-secondary leading-relaxed">
+                                      {item.title}
+                                    </span>
+                                    <ChevronDown
+                                      className={`h-5 w-5 flex-shrink-0 text-secondary transition-transform duration-200 ${
+                                        isExpanded ? "rotate-180" : ""
+                                      }`}
+                                      strokeWidth={1.5}
+                                    />
+                                  </button>
+
+                                  {isExpanded && (
+                                    <div className="border-t border-foreground/10 px-5 py-4">
+                                      {item.description
+                                        .split("\n")
+                                        .filter((line) => line.trim())
+                                        .map((line, lineIndex) => (
+                                          <p
+                                            key={lineIndex}
+                                            className="font-paragraph text-base text-secondary leading-relaxed"
+                                          >
+                                            {line}
+                                          </p>
+                                        ))}
+                                    </div>
+                                  )}
+                                </div>
+                              ) : (
+                                <p className="font-paragraph text-base text-secondary leading-relaxed">
+                                  {item.title}
+                                </p>
+                              )}
                             </div>
-                          ),
-                        )}
+                          );
+                        })}
                       </div>
                     </div>
                   )}

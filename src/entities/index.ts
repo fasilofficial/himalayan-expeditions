@@ -31,6 +31,11 @@ export interface Expeditions {
   highlights?: string;
   /** @wixFieldType text */
   itinerary?: string;
+  /** Optional structured itinerary entries for expandable day descriptions */
+  itineraryItems?: Array<{
+    title: string;
+    description?: string;
+  }>;
   /** @wixFieldType text */
   whatsIncluded?: string;
   /** @wixFieldType text */
