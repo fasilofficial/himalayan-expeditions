@@ -4,12 +4,8 @@ export const expeditions = [
     name: "Everest Base Camp 15 Days",
     shortDescription: `This trek is 15 days plus 2 days of travel on the front and back end. Unlike the trek through the Annapurnas, there is very little time spent in Kathmandu on the Everest Base Camp itinerary with more time spent in the Everest Region. As a matter of fact, the trek to Everest Base Camp (EBC) gives adventurers a once-in-a-lifetime opportunity to visit some of the high-altitude destinations that only a small percentage of the world’s population ever gets to visit. Following the trail blazed by Edmund Hillary and Tenzing Norgay, groups will trek along the foothills of the Himalayan mountains including the world’s highest, Mount Everest (8848m). Stand beneath their blanketing shadows and feel the energy that these giants give off. Likewise, en route experience tea houses, Sherpa hospitality, Buddhist culture, spiritualism, and the amazing mountain scenery.\nIn general, the trek begins in Lukla, also known as the “Gateway to Everest” and groups will follow their experienced guide through different villages culminating at Everest Base Camp. Challenging hikes will test participants endurance level but will reward trekkers with up-close views of Mt. Everest (29,029 ft), Mt Pumori (23,500 ft), Thanserku (21,730 ft), Ama Dablam (22,350 ft), Nuptse (25,800 ft), Cho Oyu (26,860 ft), Lhotse (27,940 ft), Imja Tse/Island Peak (20,200 ftm) and several other peaks. Surrounded by tumbling glaciers and giant walls of snow and ice, EBC is the first campsite for climbers trying to scale Mount Everest.`,
     price: 1200,
-    mainImage: "/photos/image-00123.jpg",
-    images: [
-      "https://static.wixstatic.com/media/51cacb_c3f7efc8bc834f76b45edba6231b16ec~mv2.png?originWidth=1280&originHeight=704",
-      "/photos/image-00123.jpg",
-      "https://static.wixstatic.com/media/51cacb_241081de656a4cacb0e81042bdf9063a~mv2.png?originWidth=1280&originHeight=704",
-    ],
+    mainImage: "/photos/1-1.jpg",
+    images: ["/photos/1-2.jpg", "/photos/1-3.jpg"],
     destination: "Kathmandu, Nepal",
     durationInDays: 15,
     difficulty: "Extreme",
@@ -28,8 +24,8 @@ export const expeditions = [
     name: "Island Peak Climbing with Everest Base Camp Trek",
     shortDescription: `Island Peak Climbing with Everest Base Camp Trek is an awesome involvement with the Himalayas of Nepal. It is intended for fiery and truly fit trekkers with practically zero involvement with mountain endeavor. Island Peak (6,189m/20,305ft) is one of the primary climbing tops in the Everest Region of Nepal with an amazing and exceptionally glaciated West Face that ascents from the Lhotse Glacier. Being one of the ‘trekking tops’ with next to no specialized perspectives, Island Peak Climbing is certifiably not a troublesome endeavor for an amateur climber wishing to enter the mind boggling universe of hiking. Many climbers run to Nepal consistently to get a grant for Island Peak climbing.\nOur experience likewise brings us into the heartland of the Khumbu Valley and Sherpa culture. Prior to scaling the pinnacle, we likewise visit, potentially the most well known trekking goal on the planet – Everest Base Camp (5,357m/17,575ft) and Kala Patthar – for the very close perspectives on Mt. Everest and other high mountains.\nToward the East lies brilliant Red rock mass of Mt Makalu 8475m and Cho Polu 6734m. Mt Baruntse 7720m and the lofty Ama Dablam 6856m gatekeepers the passageway at the South over a frigid cove where Island Peak stands. Island Peak Mountaineering with EBC Trek in Nepal is the most ideal approach to investigate the emotional scenes, peaceful snow capped woods, and rich Buddhist religion and culture neighborly good country Sherpa people group amidst the world’s most noteworthy mountains.`,
     price: 1900,
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_241081de656a4cacb0e81042bdf9063a~mv2.png?originWidth=1280&originHeight=704",
+    mainImage: "/photos/2-1.webp",
+    images: ["/photos/2-2.webp", "/photos/2-3.jpg"],
     destination: "Nepal",
     durationInDays: 18,
     difficulty: "Extreme",
@@ -48,8 +44,8 @@ export const expeditions = [
     name: "Mera Peak Climbing",
     shortDescription: `Mera Peak, one of the most climbable peaks in the world, continues to fascinate the climbers with its easy peak climbing route that you can ever imagine in a mountain. Also, Mera Peak has varied alluring features that will meet the expectations of a climber as well as capture the attention of your mind. It has the reputation of an easy peak, less fatal, and this is what matters to the world. Mera Peak is also a warm-up peak for those who are climbing Mt. Everest.\nIt seems Mera Peak is for everybody because it is not a technical peak. Its height ascends to 6000 m plus, a height that has to be respected, the required height, as well as the standard elevation that you want to ascend in your life. It is good to have a lifetime experience on this peak, where climbing to the top is always successful. This climbing demands physical fitness from you, after all, you are climbing such an altitude.\nThe top of Mera Peak is a vantage point, for it shows the view of 8000 m mountains, soaring around us, such as Everest, Makalu, Lhotse, Cho Oyu, and Kanchenjunga, as well as to enjoy the panoramic view of snow-clad mountains that has the best of the best view in the world.\nWith the world-class climbing guide of Sherpa Summit Treks and Expedition, you are going to have this, as well as stand on the top of Mera Peak. This is also the guide, who will teach you from scratch, such as how to fix ropes, how to climb up the rocky area, how to walk on a steep edge, must-have climbing equipment, and so on. After all, Mera Peak is a mixed climbing of ice climbing, snow climbing, and rock climbing.`,
     price: 1700,
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    mainImage: "/photos/3-1.jpg",
+    images: ["/photos/3-2.webp", "/photos/3-3.jpg"],
     destination: "Kathmandu, Nepal",
     durationInDays: 19,
     difficulty: "Extreme",
@@ -69,8 +65,8 @@ export const expeditions = [
     shortDescription:
       "The Everest Three Passes Trek takes you beyond the typical trekking routes in the Everest region, leading you over some of the most scenic and highest passes in the world.\n\nThis challenging 20-day trek pushes you beyond the standard routes, taking you over three of the highest passes of the Everest Region: Kongma La (5,535 m), Cho La (5,420 m), and Renjo La (5,360 m).\n\nEach high pass offers its own unique set of challenges and spectacular rewards, including awe-inspiring views of the world’s tallest peaks—Mount Everest (8,848 m), Lhotse (8,516 m), Cho Oyu (8,188 m), and Makalu (8,485 m).\n\nThe three pass trek begins with a short flight from Kathmandu to Lukla, a gateway to the Everest region. From Lukla, you trek through picturesque Sherpa villages, dense forests, and rugged high-altitude terrain.",
     price: 1700,
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    mainImage: "/photos/4-1.webp",
+    images: ["/photos/4-2.jpg", "/photos/4-3.jpg"],
     destination: "Kathmandu, Nepal",
     durationInDays: 20,
     difficulty: "Extreme",
@@ -90,8 +86,8 @@ export const expeditions = [
     shortDescription:
       "The Gokyo Lake trek is a celebrated journey renowned for its breathtaking views and rich cultural experiences. This trek offers stunning vistas of some of Nepal’s most iconic 8,000-meter peaks, including Cho Oyu, Everest, Lhotse, and Makalu.\n\nThe highlight of the Gokyo Lakes trek is the panoramic view from Gokyo Ri, which rises above Gokyo Lakes. From this vantage point, trekkers are treated to an awe-inspiring sight of the immense ice ridge between Cho Oyu and Gyachung (2,922 meters) in the Khumbu region, as well as sweeping vistas of the Ngozumpa Glacier, the largest glacier in Nepal’s Himalayas.\n\nThe adventure begins with a thrilling flight to Lukla, where the journey into the heart of the Himalayas truly starts.\n\nOver the following days, we trek through stunning landscapes, staying in local lodges and interacting with the warm and welcoming Sherpa people. This immersion provides a unique opportunity to experience both the natural beauty and the rich cultural heritage of the region.\n\nOur Gokyo Lake trek is meticulously organized with the assistance of experienced Sherpa guides, who ensure our safety and enrich our understanding of the local customs and traditions..",
     price: 1000,
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    mainImage: "/photos/5-1.jpg",
+    images: ["/photos/5-2.webp", "/photos/5-3.jpg"],
     destination: "Kathmandu, Nepal",
     durationInDays: 13,
     difficulty: "Extreme",
@@ -110,8 +106,8 @@ export const expeditions = [
     name: "Annapurna Circuit Trek",
     shortDescription: `Annapurna Circuit Trek is one of the stunning treks that you can do in the world. Its trekking trail takes you to the glaciated rivers and steel bridges in the Annapurna Region. Also, it takes you to the green lush forest and snow – covered mountains of that region. As you walk, the glimpse of these mountains keeps on coming to your eyes. You will also see the incredible view of mountains, including Annapurna I and Annapurna II which surround you on a high altitude trekking trail. The climate is cold as well as the region is arid. There is also an unwanted strong wind. Some parts of the trekking trail are covered with snow, some with dust, and some with rocks. And some are little steep as well. These are the characteristics of the Annapurna Circuit Trekking.\nThroughout this Annapurna Circuit trek, you will get views of different mountains in the Annapurna range mainly the Annapurna IV. As you trek further, you will see that the scenery of alpine landscape gets more and more amazing. Walking and exploring through these beauties create a sense of achievement and success in you. You will get to see these landscapes in their ﬁnest form. Most of the time in this Annapurna Circuit Trek, you will be trekking in an alpine desert region with dusty paths.\nThis classic Annapurna Circuit Trek Itinerary takes you to Manang, a popular developed village of the Annapurna Region. It is a bustling town with nice bakeries. Exploring Manang is certainly a treat in this trek. From there, you have to muster up your strength to go to a higher altitude. One of the highlights of the Annapurna Circuit Trek is the Thorong La Pass, which is challenging because you have to ﬁght against altitude mountain sickness to cross Thorong La Pass. From the summit of the pass, you can see a great barrier ridge, which separates Nepal from Tibet. The trekking trail from the summit of the Thorong La Pass leading to Muktinath goes downhill.\nAfter reaching Muktinath, which is another highlight of the Annapurna Round Circuit Trek, it is time to celebrate your success.`,
     price: 1000,
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    mainImage: "/photos/6-1.jpg",
+    images: ["/photos/6-2.webp", "/photos/6-3.jpg"],
     destination: "Kathmandu, Nepal",
     durationInDays: 16,
     difficulty: "Extreme",
@@ -130,8 +126,8 @@ export const expeditions = [
     name: "Manaslu Circuit Trek",
     shortDescription: `Manaslu Circuit Trek is not only about seeing the magnificent figure of Manaslu, the eigth highest mountain in the world, but also swallowing the beauties of other mountains, such as Sringi Himal, Himlung, Cheo Peak, Gyagi Kung, Kang Koru and Annapurna II. Since they are beautiful, they make the Manaslu Region attractive. Creating a picturesque landscape in the eyes of the trekkers, Manaslu Region gives you ROI, return on investment. Its trekking route that we are going to follow is already famous; it is known to the world by the name of Salt Trade Route. Trekking there also means being close to the Budhi Gandaki River, one of the famous rivers of Nepal.\nBut Manaslu Circuit Trek goes beyond these, for it takes you to the forest of rhododendron, pine, cedar, birch, and junipers, moving you from dusty trekking trail to the lush vegetation area, and then to the religious places, such as mani-stone-walls, which have the carvings of the Buddhism and the Tibetean hymns. Al in all, this trek is a combination of peaceful Buddhism aspects, naturally grown vegetation, and wonderful snow-covered mountains, and last but not least, it has the trail that has all the characterics of a trekking trail, that a true trekker seeks and wants, and then, it has monasteries, the perfect place for the trekkers to visit and to take a rest in one of the remotest himalayan regions of Nepal. The reason is they are impressive for we wiil be submerged in the world of the Buddhist religion, and when we see colorful Buddhist flags, which will influence you positivley from the top to bottom. The way these flags flutter have the reasons to boost your low spirit, including your thinking, as well as on the way you look upon your life in the modern and busy world.\nManaslu Trekking Route’s pays off fully when it takes us to to the Larkya La Pass from where we see the breath-taking view of the glacier in adjacent to Mount Manaslu.`,
     price: 1200,
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    mainImage: "/photos/7-1.webp",
+    images: ["/photos/7-2.jpg", "/photos/7-3.webp"],
     destination: "Kathmandu, Nepal",
     durationInDays: 18,
     difficulty: "Easy to Moderate to Hard",
@@ -151,8 +147,8 @@ export const expeditions = [
     shortDescription:
       "The Annapurna Base Camp trek is popular also as the Annapurna Sanctuary trek. Whatever the name, the trek offers abundance of beautiful landscapes and mountain views along with stunning Alpine forests and diverse vegetation. The Annapurna Base Camp Trek gives you spectacular mountain views that are spell-bounding and unforgettable to the eyes. The uninterrupted views of mountains from the Annapurna Base Camp make your jaw drop and will be comforting to the eyes, mind and your soul as a whole. They feed your eyes that love to see soaring, breath-taking, and snow-covered mountains. This is a trekking route you would want to visit again and again which is clearly visible as the Annapurna Base Camp Trek is one of the most visited trekking destinations.",
     price: 700,
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    mainImage: "/photos/8-1.webp",
+    images: ["/photos/8-2.jpg", "/photos/8-3.webp"],
     destination: "Kathmandu, Nepal",
     durationInDays: 14,
     difficulty: "Moderate",
@@ -171,9 +167,9 @@ export const expeditions = [
     name: "Ama Dablam Expedition",
     shortDescription:
       "Ama Dablam (6,812m) is one of the world’s most attractive mountains. The awe-inspiring ice-coated granite pyramid-like mountain soars above the Dudh Kosi River valley south of Everest and Lhotse in the Khumbu region. Mount Ama Dablam is acknowledged as a jewel of the Himalayas in Nepal. Ama Dablam climbing is relatively safe and anyone can summit it. This unforgettable climb in the Khumbu region of Nepal involves a cultural trek up to Everest base camp along with technical aspect of rock, snow and ice climbing experience. We must allow more time on the mountain to acclimatize properly. The route provides varied and sustained climb with reasonable level of difficulty. From the summit top you, can enjoy stunning panoramic views of Mt. Everest, Cho Oyu, Lhotse and Makalu. We fix two to three camps on the route along the beautiful south-west ridge beneath the right side of the hanging glacier. Expedition to Mt. Ama Dablam begins with a 35 minutes mountain flight to Lukla and then trek to Namche Bazaar, Khumjung and Pangboche before setting up base camp. It is just 20 mile walk from Lukla to Ama Dablam base camp. The normal route for Mt. Ama Dablam climbing is via South-West Ridge. The ascent from Ama Dablam Camp I to camp III is considered the most difficult part of the climb.",
-    price: '7000 / 8000',
-    mainImage:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    price: "7000 / 8000",
+    mainImage: "/photos/9-1.jpg",
+    images: ["/photos/9-2.webp", "/photos/9-3.jpg"],
     destination: "Kathmandu, Nepal",
     durationInDays: 24,
     difficulty: "Extreme",
@@ -1297,8 +1293,7 @@ export const homePageContent = {
     title: "Every Expedition Leaves a Positive Mark",
     description:
       "A portion of every expedition directly supports local Himalayan communities. We invest in education initiatives, environmental conservation, and mountain village development projects.",
-    image:
-      "/photos/image-00128.jpeg",
+    image: "/photos/image-00128.jpeg",
     imageAlt: "Community Support in Himalayas",
     stats: [
       {
