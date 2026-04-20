@@ -61,7 +61,7 @@ export default function HomePage() {
 
   const featuredExpeditions = expeditions
     .filter((expedition) => expedition.isFeatured)
-    .slice(0, 3)
+    .slice(0, 5)
     .map((expedition) => ({
       ...expedition,
       id: expedition._id,

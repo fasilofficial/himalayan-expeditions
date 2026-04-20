@@ -155,7 +155,9 @@ export default function FeaturedExpeditionsCarousel({
                     </Link>
 
                     <p className="font-paragraph text-lg text-secondary leading-relaxed mb-8">
-                      {expedition.shortDescription}
+                      {expedition.shortDescription?.length > 300
+                        ? expedition.shortDescription.slice(0, 300) + " ...Read more"
+                        : expedition.shortDescription}
                     </p>
 
                     <div className="flex items-center justify-between mt-8 pt-8 border-t border-border">

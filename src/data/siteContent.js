@@ -189,7 +189,7 @@ export const galleryItems = [
   {
     _id: "g1",
     title: "",
-    image: "/photos/image-00001.jpeg",
+    image: "/photos/1-1.jpg",
     description: "",
     category: "",
     dateTaken: "",
@@ -197,7 +197,7 @@ export const galleryItems = [
   {
     _id: "g2",
     title: "",
-    image: "/photos/image-00002.jpeg",
+    image: "/photos/2-1.webp",
     description: "",
     category: "",
     dateTaken: "",
@@ -205,7 +205,7 @@ export const galleryItems = [
   {
     _id: "g3",
     title: "",
-    image: "/photos/image-00003.jpeg",
+    image: "/photos/3-1.jpg",
     description: "",
     category: "",
     dateTaken: "",
@@ -213,7 +213,7 @@ export const galleryItems = [
   {
     _id: "g4",
     title: "",
-    image: "/photos/image-00004.jpeg",
+    image: "/photos/4-1.webp",
     description: "",
     category: "",
     dateTaken: "",
@@ -221,7 +221,7 @@ export const galleryItems = [
   {
     _id: "g5",
     title: "",
-    image: "/photos/image-00005.jpeg",
+    image: "/photos/5-1.jpg",
     description: "",
     category: "",
     dateTaken: "",
@@ -229,7 +229,7 @@ export const galleryItems = [
   {
     _id: "g6",
     title: "",
-    image: "/photos/image-00006.jpeg",
+    image: "/photos/6-1.jpg",
     description: "",
     category: "",
     dateTaken: "",
@@ -237,7 +237,7 @@ export const galleryItems = [
   {
     _id: "g7",
     title: "",
-    image: "/photos/image-00007.jpeg",
+    image: "/photos/7-1.webp",
     description: "",
     category: "",
     dateTaken: "",
@@ -245,7 +245,7 @@ export const galleryItems = [
   {
     _id: "g8",
     title: "",
-    image: "/photos/image-00008.jpeg",
+    image: "/photos/8-1.webp",
     description: "",
     category: "",
     dateTaken: "",
@@ -253,7 +253,7 @@ export const galleryItems = [
   {
     _id: "g9",
     title: "",
-    image: "/photos/image-00009.jpeg",
+    image: "/photos/9-1.jpg",
     description: "",
     category: "",
     dateTaken: "",
@@ -1262,8 +1262,7 @@ export const homePageContent = {
     description:
       "Experience the thrill of the Himalayas and explore breathtaking destinations around the world through expertly guided treks, cultural adventures, and unforgettable expeditions.",
     primaryCtaLabel: "View Expeditions",
-    heroImage:
-      "https://static.wixstatic.com/media/51cacb_54cdb8b5248542f78127d592bddb45d6~mv2.png?originWidth=1408&originHeight=768",
+    heroImage: "/photos/hero.jpg",
     heroImageAlt: "Himalayan Landscape",
   },
   philosophy: {
@@ -1371,8 +1370,7 @@ export const homePageContent = {
 
 export const aboutPageContent = {
   hero: {
-    image:
-      "https://static.wixstatic.com/media/51cacb_88b22a8cd50a4e7f8a6012c5a8526da1~mv2.png?originWidth=960&originHeight=576",
+    image: "/photos/about-hero.jpg",
     imageAlt: "About Our Team",
     title: "About Us",
     description:
@@ -1381,7 +1379,7 @@ export const aboutPageContent = {
   story: {
     title: "Our Story",
     image:
-      "https://static.wixstatic.com/media/51cacb_88b22a8cd50a4e7f8a6012c5a8526da1~mv2.png?originWidth=960&originHeight=576",
+      "/photos/about-1.jpg",
     imageAlt: "Our team in the Himalayas",
     paragraphs: [
       "We are a team of passionate adventure lovers driven by a deep connection to mountains, exploration, and travel. Our goal is to bring together like-minded travelers and create unforgettable journeys to some of the world’s most breathtaking destinations.",
@@ -1393,7 +1391,7 @@ export const aboutPageContent = {
   vision: {
     title: "Our Vision",
     image:
-      "https://static.wixstatic.com/media/51cacb_88b22a8cd50a4e7f8a6012c5a8526da1~mv2.png?originWidth=960&originHeight=576",
+      "/photos/about-2.jpg",
     imageAlt: "Our vision for the Himalayas",
     paragraphs: [
       "We envision a world where mountain adventures are accessible to travelers from all backgrounds and budgets, creating transformative experiences that foster deep connections with nature, cultures, and the spirit of exploration.",
@@ -1404,7 +1402,7 @@ export const aboutPageContent = {
   mission: {
     title: "Our Mission | Trek with Purpose",
     image:
-      "https://static.wixstatic.com/media/51cacb_1166490075304f5084cc2c4973ff7923~mv2.png?originWidth=960&originHeight=576",
+      "/photos/about-3.jpg",
     imageAlt: "Our mission in action",
     paragraphs: [
       "At Limitless Adventures, we believe adventure is more than reaching mountain peaks — it’s about creating positive change.",
@@ -1442,7 +1440,7 @@ export const aboutPageContent = {
   whyChooseUs: {
     title: "Why Choose Us",
     image:
-      "https://static.wixstatic.com/media/51cacb_1166490075304f5084cc2c4973ff7923~mv2.png?originWidth=960&originHeight=576",
+      "/photos/about-4.jpg",
     imageAlt: "Expedition truck in the mountains",
     points: [
       {
@@ -1478,8 +1476,7 @@ export const aboutPageContent = {
 
 export const contactPageContent = {
   hero: {
-    image:
-      "https://static.wixstatic.com/media/51cacb_aaf6389d941f4db6b30434ee97cfc9aa~mv2.png?originWidth=1152&originHeight=576",
+    image: "/photos/contact-hero.jpg",
     imageAlt: "Contact Us",
     title: "Get in Touch",
     description:
@@ -1561,8 +1558,7 @@ export const contactPageContent = {
 
 export const expeditionsPageContent = {
   hero: {
-    image:
-      "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
+    image: "/photos/expeditions-hero.jpg",
     imageAlt: "Mountain Expeditions",
     title: "Limitless Adventures",
     description:
@@ -1603,8 +1599,7 @@ export const expeditionDetailPageContent = {
 
 export const galleryPageContent = {
   hero: {
-    image:
-      "https://static.wixstatic.com/media/51cacb_d7f423bfade348d598df47e6031c12c9~mv2.png?originWidth=768&originHeight=1024",
+    image: "/photos/gallery-hero.jpg",
     imageAlt: "Expedition Gallery",
     title: "Expedition Gallery",
     description:
