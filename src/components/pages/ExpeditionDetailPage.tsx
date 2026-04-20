@@ -6,6 +6,7 @@ import { useSiteContent } from "@/data/contentStore";
 import { Expeditions } from "@/entities";
 import { motion } from "framer-motion";
 import {
+  ArrowDownToLine,
   ArrowLeft,
   BedSingle,
   Calendar,
@@ -226,6 +227,16 @@ export default function ExpeditionDetailPage() {
         Boolean(image) && images.indexOf(image) === index,
     );
   }, [expedition, expeditionDetailPageContent.heroFallbackImage]);
+
+  const expeditionMapImage = useMemo(() => {
+    if (!expedition?.mapImage) return null;
+    return normalizeImageUrl(expedition.mapImage);
+  }, [expedition]);
+
+  const expeditionMapDownloadUrl = useMemo(() => {
+    if (!expedition?.mapDownloadUrl) return expeditionMapImage;
+    return normalizeImageUrl(expedition.mapDownloadUrl);
+  }, [expedition, expeditionMapImage]);
 
   useEffect(() => {
     setActiveImageIndex(0);
@@ -634,6 +645,40 @@ export default function ExpeditionDetailPage() {
                         </div>
                       )}
                     </div>
+
+                    {expeditionMapImage && (
+                      <div className="border border-foreground/20 p-6 space-y-5">
+                        <h3 className="font-heading text-xl text-foreground mb-2">
+                          {expeditionDetailPageContent.mapTitle}
+                        </h3>
+
+                        <div className="overflow-hidden rounded-2xl border border-foreground/10 bg-background max-w-[22rem] mx-auto">
+                          <Image
+                            src={expeditionMapImage}
+                            alt={
+                              expedition.mapAlt ||
+                              `${expedition.name || "Expedition"} map`
+                            }
+                            className="w-full h-auto max-h-[28rem] object-contain"
+                          />
+                        </div>
+
+                        {expeditionMapDownloadUrl && (
+                          <a
+                            href={expeditionMapDownloadUrl}
+                            download
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block"
+                          >
+                            <button className="w-full bg-[#1F6B4F] text-primary-foreground px-6 py-3.5 font-paragraph font-medium text-sm hover:bg-[#18553f] transition-colors inline-flex items-center justify-center gap-3">
+                              <ArrowDownToLine className="w-4 h-4" />
+                              {expeditionDetailPageContent.mapDownloadLabel}
+                            </button>
+                          </a>
+                        )}
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

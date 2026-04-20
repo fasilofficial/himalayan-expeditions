@@ -7,6 +7,7 @@ import { ArrowRight, Compass, Mountain, Truck, Users } from "lucide-react";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import FeaturedExpeditionsCarousel from "../FeaturedExpeditionsCarousel";
+import TestimonialsCarousel from "../TestimonialsCarousel";
 
 interface Expedition {
   id: string;
@@ -326,6 +327,15 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <SectionDivider />
+
+      <TestimonialsCarousel
+        eyebrow={homePageContent.testimonials.eyebrow}
+        title={homePageContent.testimonials.title}
+        description={homePageContent.testimonials.description}
+        testimonials={homePageContent.testimonials.items}
+      />
 
       <section className="w-full max-w-[120rem] mx-auto px-6 md:px-12 py-32">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 md:mb-24">

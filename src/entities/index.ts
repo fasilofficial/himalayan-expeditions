@@ -21,6 +21,12 @@ export interface Expeditions {
   mainImage?: string;
   /** @wixFieldType image */
   images?: string[];
+  /** Optional downloadable route map preview image */
+  mapImage?: string;
+  /** Optional direct download URL for the route map */
+  mapDownloadUrl?: string;
+  /** Optional map image alt text */
+  mapAlt?: string;
   /** @wixFieldType text */
   destination?: string;
   /** @wixFieldType number */
