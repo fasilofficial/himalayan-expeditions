@@ -47,7 +47,7 @@ export const expeditions = [
     _id: "3",
     name: "Mera Peak Climbing",
     shortDescription: `Mera Peak, one of the most climbable peaks in the world, continues to fascinate the climbers with its easy peak climbing route that you can ever imagine in a mountain. Also, Mera Peak has varied alluring features that will meet the expectations of a climber as well as capture the attention of your mind. It has the reputation of an easy peak, less fatal, and this is what matters to the world. Mera Peak is also a warm-up peak for those who are climbing Mt. Everest.\nIt seems Mera Peak is for everybody because it is not a technical peak. Its height ascends to 6000 m plus, a height that has to be respected, the required height, as well as the standard elevation that you want to ascend in your life. It is good to have a lifetime experience on this peak, where climbing to the top is always successful. This climbing demands physical fitness from you, after all, you are climbing such an altitude.\nThe top of Mera Peak is a vantage point, for it shows the view of 8000 m mountains, soaring around us, such as Everest, Makalu, Lhotse, Cho Oyu, and Kanchenjunga, as well as to enjoy the panoramic view of snow-clad mountains that has the best of the best view in the world.\nWith the world-class climbing guide of Sherpa Summit Treks and Expedition, you are going to have this, as well as stand on the top of Mera Peak. This is also the guide, who will teach you from scratch, such as how to fix ropes, how to climb up the rocky area, how to walk on a steep edge, must-have climbing equipment, and so on. After all, Mera Peak is a mixed climbing of ice climbing, snow climbing, and rock climbing.`,
-    price: 2500,
+    price: 1700,
     mainImage:
       "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
     destination: "Kathmandu, Nepal",
@@ -89,7 +89,7 @@ export const expeditions = [
     name: "Gokyo Valley Trek",
     shortDescription:
       "The Gokyo Lake trek is a celebrated journey renowned for its breathtaking views and rich cultural experiences. This trek offers stunning vistas of some of Nepal’s most iconic 8,000-meter peaks, including Cho Oyu, Everest, Lhotse, and Makalu.\n\nThe highlight of the Gokyo Lakes trek is the panoramic view from Gokyo Ri, which rises above Gokyo Lakes. From this vantage point, trekkers are treated to an awe-inspiring sight of the immense ice ridge between Cho Oyu and Gyachung (2,922 meters) in the Khumbu region, as well as sweeping vistas of the Ngozumpa Glacier, the largest glacier in Nepal’s Himalayas.\n\nThe adventure begins with a thrilling flight to Lukla, where the journey into the heart of the Himalayas truly starts.\n\nOver the following days, we trek through stunning landscapes, staying in local lodges and interacting with the warm and welcoming Sherpa people. This immersion provides a unique opportunity to experience both the natural beauty and the rich cultural heritage of the region.\n\nOur Gokyo Lake trek is meticulously organized with the assistance of experienced Sherpa guides, who ensure our safety and enrich our understanding of the local customs and traditions..",
-    price: 1500,
+    price: 1000,
     mainImage:
       "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
     destination: "Kathmandu, Nepal",
@@ -171,7 +171,7 @@ export const expeditions = [
     name: "Ama Dablam Expedition",
     shortDescription:
       "Ama Dablam (6,812m) is one of the world’s most attractive mountains. The awe-inspiring ice-coated granite pyramid-like mountain soars above the Dudh Kosi River valley south of Everest and Lhotse in the Khumbu region. Mount Ama Dablam is acknowledged as a jewel of the Himalayas in Nepal. Ama Dablam climbing is relatively safe and anyone can summit it. This unforgettable climb in the Khumbu region of Nepal involves a cultural trek up to Everest base camp along with technical aspect of rock, snow and ice climbing experience. We must allow more time on the mountain to acclimatize properly. The route provides varied and sustained climb with reasonable level of difficulty. From the summit top you, can enjoy stunning panoramic views of Mt. Everest, Cho Oyu, Lhotse and Makalu. We fix two to three camps on the route along the beautiful south-west ridge beneath the right side of the hanging glacier. Expedition to Mt. Ama Dablam begins with a 35 minutes mountain flight to Lukla and then trek to Namche Bazaar, Khumjung and Pangboche before setting up base camp. It is just 20 mile walk from Lukla to Ama Dablam base camp. The normal route for Mt. Ama Dablam climbing is via South-West Ridge. The ascent from Ama Dablam Camp I to camp III is considered the most difficult part of the climb.",
-    price: 10500,
+    price: '7000 / 8000',
     mainImage:
       "https://static.wixstatic.com/media/51cacb_b1a4286b907244ba9034abb904461df7~mv2.png?originWidth=1280&originHeight=704",
     destination: "Kathmandu, Nepal",
