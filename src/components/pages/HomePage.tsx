@@ -122,9 +122,6 @@ export default function HomePage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
               >
-                <span className="inline-block py-2 px-4 mb-6 border border-white/30 text-white/90 font-paragraph text-sm tracking-widest uppercase backdrop-blur-sm">
-                  {homePageContent.hero.badge}
-                </span>
                 <h1 className="font-heading text-6xl md:text-8xl lg:text-9xl text-white leading-[0.9] tracking-tight mb-8">
                   {homePageContent.hero.title
                     .split(". ")
