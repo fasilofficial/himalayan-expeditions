@@ -1926,6 +1926,7 @@ export const homePageContent = {
       "Experience the thrill of the Himalayas and explore breathtaking destinations around the world through expertly guided treks, cultural adventures, and unforgettable expeditions.",
     primaryCtaLabel: "View Expeditions",
     heroImage: "/photos/hero.jpg",
+    heroVideo: "/videos/hero-video.mp4",
     heroImageAlt: "Himalayan Landscape",
   },
   philosophy: {

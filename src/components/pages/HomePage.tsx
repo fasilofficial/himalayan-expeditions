@@ -87,13 +87,31 @@ export default function HomePage() {
       <Header />
 
       <section className="relative w-full h-screen min-h-[800px] flex flex-col justify-end overflow-hidden">
-        <div className="absolute inset-0 z-0">
+        {/* <div className="absolute inset-0 z-0">
           <ParallaxImage
             src={homePageContent.hero.heroImage}
             alt={homePageContent.hero.heroImageAlt}
             className="w-full h-full"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
+        </div> */}
+
+        <div className="absolute inset-0 z-0">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src={homePageContent.hero.heroVideo} type="video/mp4" />
+            <img
+              src={homePageContent.hero.heroImage}
+              alt={homePageContent.hero.heroImageAlt}
+              className="w-full h-full object-cover"
+            />
+          </video>
+          <div className="absolute inset-0 bg-black/50" />
         </div>
 
         <div className="relative z-10 w-full max-w-[120rem] mx-auto px-6 md:px-12 pb-24 md:pb-32">
